@@ -1,0 +1,334 @@
+@import url("../twentyfourteen/style.css");
+/*
+ Theme Name:   Twenty Fourteen Child
+ Theme URI:    http://pressfwd.org/toynbee
+ Description:  Twenty Fourteen Child Theme for Toynbee
+ Author:       Jeri Wieringa
+ Template:     twentyfourteen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+/* Colors */
+/* Background Color */
+/* line 18, sass/style.scss */
+body.custom-background {
+  background-color: white;
+}
+
+/* line 29, sass/style.scss */
+.site:before,
+#secondary,
+.site-header,
+.site-footer,
+.featured-content,
+.featured-content .entry-header,
+.slider-direction-nav a,
+.ie8 .featured-content,
+.ie8 .site:before {
+  background-color: #cad9d9;
+}
+
+/* line 32, sass/style.scss */
+.site-navigation a {
+  color: #444444;
+}
+
+/* Header */
+/* line 37, sass/style.scss */
+.site-header .header-main {
+  background-color: white;
+  overflow: auto;
+}
+/* line 41, sass/style.scss */
+.site-header .header-main .header-image {
+  float: left;
+  margin: .5em 0;
+  border: 1px solid #9bc6c6;
+  width: 50px;
+}
+/* line 47, sass/style.scss */
+.site-header .header-main .site-title {
+  clear: none;
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin: 10px 0 10px 20px;
+}
+/* line 55, sass/style.scss */
+.site-header .header-main .site-title a {
+  color: #648c8c;
+}
+/* line 62, sass/style.scss */
+.site-header .primary-navigation {
+  font-size: 12px;
+}
+
+/*Links and Accents*/
+/* line 26, sass/_accent-colors.scss */
+button,
+.button,
+.contributor-posts-link,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.search-toggle,
+.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+.mejs-overlay:hover .mejs-overlay-button,
+.widget button,
+.widget input[type="button"],
+.widget input[type="reset"],
+.widget input[type="submit"],
+.widget_calendar tbody a,
+.content-sidebar .widget input[type="button"],
+.content-sidebar .widget input[type="reset"],
+.content-sidebar .widget input[type="submit"],
+.slider-control-paging .slider-active:before,
+.slider-control-paging .slider-active:hover:before,
+.slider-direction-nav a:hover,
+.ie8 .primary-navigation ul ul,
+.ie8 .secondary-navigation ul ul,
+.ie8 .primary-navigation li:hover > a,
+.ie8 .primary-navigation li.focus > a,
+.ie8 .secondary-navigation li:hover > a,
+.ie8 .secondary-navigation li.focus > a {
+  background-color: #9bc6c6;
+}
+
+/* line 30, sass/_accent-colors.scss */
+.site-navigation a:hover {
+  color: #9bc6c6;
+}
+
+/* line 34, sass/_accent-colors.scss */
+::-moz-selection {
+  background: #9bc6c6;
+}
+
+/* line 38, sass/_accent-colors.scss */
+::selection {
+  background: #9bc6c6;
+}
+
+/* line 42, sass/_accent-colors.scss */
+.paging-navigation .page-numbers.current {
+  border-color: #9bc6c6;
+}
+
+@media screen and (min-width: 782px) {
+  /* line 49, sass/_accent-colors.scss */
+  .primary-navigation li:hover > a,
+  .primary-navigation li.focus > a,
+  .primary-navigation ul ul {
+    background-color: #9bc6c6;
+  }
+}
+@media screen and (min-width: 1008px) {
+  /* line 57, sass/_accent-colors.scss */
+  .secondary-navigation li:hover > a,
+  .secondary-navigation li.focus > a,
+  .secondary-navigation ul ul {
+    background-color: #9bc6c6;
+  }
+}
+/* line 96, sass/_accent-colors.scss */
+.contributor-posts-link,
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.search-toggle:before,
+.mejs-overlay:hover .mejs-overlay-button,
+.widget button,
+.widget input[type="button"],
+.widget input[type="reset"],
+.widget input[type="submit"],
+.widget_calendar tbody a,
+.widget_calendar tbody a:hover,
+.site-footer .widget_calendar tbody a,
+.content-sidebar .widget input[type="button"],
+.content-sidebar .widget input[type="reset"],
+.content-sidebar .widget input[type="submit"],
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+.contributor-posts-link:hover,
+.contributor-posts-link:active,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.slider-direction-nav a:hover:before,
+.ie8 .primary-navigation li:hover > a,
+.ie8 .primary-navigation li.focus > a,
+.ie8 .secondary-navigation li:hover > a,
+.ie8 .secondary-navigation li.focus > a {
+  color: #444444;
+}
+
+@media screen and (min-width: 782px) {
+  /* line 104, sass/_accent-colors.scss */
+  .primary-navigation ul ul a,
+  .primary-navigation li:hover > a,
+  .primary-navigation li.focus > a,
+  .primary-navigation ul ul {
+    color: #444444;
+  }
+}
+@media screen and (min-width: 1008px) {
+  /* line 113, sass/_accent-colors.scss */
+  .secondary-navigation ul ul a,
+  .secondary-navigation li:hover > a,
+  .secondary-navigation li.focus > a,
+  .secondary-navigation ul ul {
+    color: #444444;
+  }
+}
+/* line 118, sass/_accent-colors.scss */
+::selection {
+  color: #444444;
+}
+
+/* line 122, sass/_accent-colors.scss */
+::-moz-selection {
+  color: #444444;
+}
+
+/* line 126, sass/_accent-colors.scss */
+.hentry .mejs-controls .mejs-time-rail .mejs-time-loaded {
+  background-color: #444444;
+}
+
+/* Generated variants of custom accent color. */
+/* line 133, sass/_accent-colors.scss */
+a,
+.content-sidebar .widget a {
+  color: #648c8c;
+}
+
+/* line 168, sass/_accent-colors.scss */
+.contributor-posts-link:hover,
+.button:hover,
+.button:focus,
+.slider-control-paging a:hover:before,
+.search-toggle:hover,
+.search-toggle.active,
+.search-box,
+.widget_calendar tbody a:hover,
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.widget input[type="button"]:hover,
+.widget input[type="button"]:focus,
+.widget input[type="reset"]:hover,
+.widget input[type="reset"]:focus,
+.widget input[type="submit"]:hover,
+.widget input[type="submit"]:focus,
+.content-sidebar .widget input[type="button"]:hover,
+.content-sidebar .widget input[type="button"]:focus,
+.content-sidebar .widget input[type="reset"]:hover,
+.content-sidebar .widget input[type="reset"]:focus,
+.content-sidebar .widget input[type="submit"]:hover,
+.content-sidebar .widget input[type="submit"]:focus,
+.ie8 .primary-navigation ul ul a:hover,
+.ie8 .primary-navigation ul ul li.focus > a,
+.ie8 .secondary-navigation ul ul a:hover,
+.ie8 .secondary-navigation ul ul li.focus > a {
+  background-color: #bbd9d9;
+}
+
+/* line 179, sass/_accent-colors.scss */
+.featured-content a:hover,
+.featured-content .entry-title a:hover,
+.widget a:hover,
+.widget-title a:hover,
+.widget_twentyfourteen_ephemera .entry-meta a:hover,
+.hentry .mejs-controls .mejs-button button:hover,
+.site-info a:hover,
+.featured-content a:hover {
+  color: #bbd9d9;
+}
+
+/* line 198, sass/_accent-colors.scss */
+a:active,
+a:hover,
+.entry-title a:hover,
+.entry-meta a:hover,
+.cat-links a:hover,
+.entry-content .edit-link a:hover,
+.post-navigation a:hover,
+.image-navigation a:hover,
+.comment-author a:hover,
+.comment-list .pingback a:hover,
+.comment-list .trackback a:hover,
+.comment-metadata a:hover,
+.comment-reply-title small a:hover,
+.content-sidebar .widget a:hover,
+.content-sidebar .widget .widget-title a:hover,
+.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+  color: #bbd9d9;
+}
+
+/* line 203, sass/_accent-colors.scss */
+.page-links a:hover,
+.paging-navigation a:hover {
+  border-color: #bbd9d9;
+}
+
+/* line 207, sass/_accent-colors.scss */
+.entry-meta .tag-links a:hover:before {
+  border-right-color: #bbd9d9;
+}
+
+/* line 212, sass/_accent-colors.scss */
+.page-links a:hover,
+.entry-meta .tag-links a:hover {
+  background-color: #bbd9d9;
+}
+
+@media screen and (min-width: 782px) {
+  /* line 218, sass/_accent-colors.scss */
+  .primary-navigation ul ul a:hover,
+  .primary-navigation ul ul li.focus > a {
+    background-color: #bbd9d9;
+  }
+}
+@media screen and (min-width: 1008px) {
+  /* line 225, sass/_accent-colors.scss */
+  .secondary-navigation ul ul a:hover,
+  .secondary-navigation ul ul li.focus > a {
+    background-color: #bbd9d9;
+  }
+}
+/* line 241, sass/_accent-colors.scss */
+button:active,
+.button:active,
+.contributor-posts-link:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+.widget input[type="button"]:active,
+.widget input[type="reset"]:active,
+.widget input[type="submit"]:active,
+.content-sidebar .widget input[type="button"]:active,
+.content-sidebar .widget input[type="reset"]:active,
+.content-sidebar .widget input[type="submit"]:active {
+  background-color: #f4d8c0;
+}
+
+/* line 248, sass/_accent-colors.scss */
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+  color: #f4d8c0;
+}

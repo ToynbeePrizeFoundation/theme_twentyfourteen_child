@@ -1,0 +1,71 @@
+/*
+ Theme Name:   Twenty Fourteen Child
+ Theme URI:    http://pressfwd.org/toynbee
+ Description:  Twenty Fourteen Child Theme for Toynbee
+ Author:       Jeri Wieringa
+ Template:     twentyfourteen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../twentyfourteen/style.css");
+@import "compass";
+@import "base";
+
+
+/* Background Color */
+body.custom-background{
+	background-color: $background;
+}
+.site:before,
+		#secondary,
+		.site-header,
+		.site-footer,
+		.featured-content,
+		.featured-content .entry-header,
+		.slider-direction-nav a,
+		.ie8 .featured-content,
+		.ie8 .site:before {
+			background-color: lighten($accent-main, 35%);
+		}
+.site-navigation a{
+	color:$text;
+}
+/* Header */
+.site-header {
+	.header-main {
+	    background-color: $background;
+	    overflow: auto;
+
+	    .header-image{
+	    	float:left;
+	    	margin:.5em 0;
+	    	border: 1px solid $accent-second;
+	    	width:50px;
+	    }
+	    .site-title {
+			clear:none;
+			font-family: 'Josefin Slab', serif;
+			text-transform: uppercase;
+			font-size: 2em;
+			margin: 10px 0 10px 20px;
+
+			
+			a {
+		    	color:$accent-main;
+
+			}
+		}
+
+	}
+	.primary-navigation {
+		font-size:12px;
+
+	}
+}
+
+/*Links and Accents*/
+@import "accent-colors";
+
+
