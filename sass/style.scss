@@ -14,7 +14,7 @@
 @import "base";
 
 
-/* Background Color */
+/*Background Color */
 body.custom-background{
 	background-color: $background;
 }
@@ -27,45 +27,373 @@ body.custom-background{
 		.slider-direction-nav a,
 		.ie8 .featured-content,
 		.ie8 .site:before {
-			background-color: lighten($accent-main, 35%);
-		}
-.site-navigation a{
-	color:$text;
+			background-color: $accent-base;
+	}
+#secondary a {
+	font-size: 12px;
 }
-/* Header */
-.site-header {
-	.header-main {
-	    background-color: $background;
-	    overflow: auto;
 
-	    .header-image{
-	    	float:left;
-	    	margin:.5em 0;
-	    	border: 1px solid $accent-second;
-	    	width:50px;
-	    }
-	    .site-title {
-			clear:none;
+/*Header */
+.site-header {
+	padding:.5em 0;
+	border-bottom:1px solid white;
+
+	.header-main {
+		.site-title{
 			font-family: 'Josefin Slab', serif;
 			text-transform: uppercase;
 			font-size: 2em;
-			margin: 10px 0 10px 20px;
+			font-weight: 200;
+			max-width:75%;
 
-			
 			a {
-		    	color:$accent-main;
-
+				color:$text;
 			}
 		}
+		.primary-navigation {
+			font-size:12px;
 
-	}
-	.primary-navigation {
-		font-size:12px;
+			.menu-toggle {
+				padding:.5em 0;
+			}
+		}
+		.primary-navigation.toggled-on {
+			padding: 102px 0 36px;
+		}
+		.search-toggle {
+			background-color: $accent-main;
+			&:hover{
+				background-color: lighten($accent-main, 10%);
+			}
+		}
+	}	
+}
+.masthead-fixed .site-main {
+	margin-top: 64px;
 
-	}
 }
 
 /*Links and Accents*/
-@import "accent-colors";
 
+.site:before, 
+	#secondary, 
+	.site-header, 
+	.site-footer, 
+	.featured-content, 
+	.featured-content 
+	.entry-header, 
+	.slider-direction-nav a, 
+	.ie8 .featured-content, 
+	.ie8 .site:before{
+		color:$text;
+		h1 {
+			color:$text;
+		}
+		a{
+			color:$text;
+		}
+}
+#secondary .sub-menu a{ color:white;}
+
+#secondary .primary-sidebar {
+	h1 {font-size: 14px;}
+	ul{
+		font-size:13px;
+	}
+	a{
+		@include link-colors(darken($accent-main, 10%), lighten($accent-main, 10%), $accent-main);
+		font-size: 13px;
+	}
+}
+
+/* Extras */
+.header-image{
+	margin:10px 0;
+	width:100%;
+}
+/* Widgets */
+#secondary .widget-area li{
+	display:block;
+	&:hover{
+		background-color: $accent-main;
+		color:white;
+
+		a {
+			color:white;
+		}
+	&:active{
+		background-color: lighten($accent-main, 10%);	
+	}
+	}
+}
+/*"accent-colors"*/
+button,
+.button,
+.contributor-posts-link,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.search-toggle,
+.hentry .mejs-controls .mejs-time-rail .mejs-time-current,
+.mejs-overlay:hover .mejs-overlay-button,
+.widget button,
+.widget input[type="button"],
+.widget input[type="reset"],
+.widget input[type="submit"],
+.widget_calendar tbody a,
+.content-sidebar .widget input[type="button"],
+.content-sidebar .widget input[type="reset"],
+.content-sidebar .widget input[type="submit"],
+.slider-control-paging .slider-active:before,
+.slider-control-paging .slider-active:hover:before,
+.slider-direction-nav a:hover,
+.ie8 .primary-navigation ul ul,
+.ie8 .secondary-navigation ul ul,
+.ie8 .primary-navigation li:hover > a,
+.ie8 .primary-navigation li.focus > a,
+.ie8 .secondary-navigation li:hover > a,
+.ie8 .secondary-navigation li.focus > a {
+    background-color: $accent-main;
+}
+
+.site-navigation a:hover {
+    color: $accent-main;
+}
+/* Support a widely-adopted but non-standard selector for text selection styles
+ * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
+ */
+::selection {
+	background: $accent-main;
+	color: #fff;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	background: $accent-main;
+	color: #fff;
+	text-shadow: none;
+}
+
+.paging-navigation .page-numbers.current {
+    border-color: lighten($accent-main,10%);
+}
+
+.site-navigation .current_page_item > a,
+	.site-navigation .current_page_ancestor > a,
+	#secondary .site-navigation .current_page_item > a,
+	#secondary .site-navigation .current_page_ancestor > a, 
+	.site-navigation .current-menu-item > a, 
+	.site-navigation .current-menu-ancestor > a,
+	#secondary .site-navigation .current-menu-item > a,
+	#secondary .site-navigation .current-menu-ancestor > a, {
+		display:block;
+		background-color: lighten($accent-main, 10%);
+		color: $background;
+		font-weight: 700;
+	}
+
+@media screen and (min-width: 782px) {
+    .primary-navigation li:hover > a,
+    .primary-navigation li.focus > a,
+    .primary-navigation ul ul {
+        background-color: $accent-main;
+    }
+}
+
+@media screen and (min-width: 1008px) {
+    .secondary-navigation li:hover > a,
+    .secondary-navigation li.focus > a,
+    .secondary-navigation ul ul {
+        background-color: $accent-main;
+        color:white;
+
+    }
+}
+
+ .contributor-posts-link,
+    .button,
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"],
+    .search-toggle:before,
+    .mejs-overlay:hover .mejs-overlay-button,
+    .widget button,
+    .widget input[type="button"],
+    .widget input[type="reset"],
+    .widget input[type="submit"],
+    .widget_calendar tbody a,
+    .widget_calendar tbody a:hover,
+    .site-footer .widget_calendar tbody a,
+    .content-sidebar .widget input[type="button"],
+    .content-sidebar .widget input[type="reset"],
+    .content-sidebar .widget input[type="submit"],
+    button:hover,
+    button:focus,
+    .button:hover,
+    .button:focus,
+    .contributor-posts-link:hover,
+    .contributor-posts-link:active,
+    input[type="button"]:hover,
+    input[type="button"]:focus,
+    input[type="reset"]:hover,
+    input[type="reset"]:focus,
+    input[type="submit"]:hover,
+    input[type="submit"]:focus,
+    .slider-direction-nav a:hover:before,
+    .ie8 .primary-navigation li:hover > a,
+    .ie8 .primary-navigation li.focus > a,
+    .ie8 .secondary-navigation li:hover > a,
+    .ie8 .secondary-navigation li.focus > a {
+        color: $background;
+    }
+
+@media screen and (min-width: 782px) {
+        .primary-navigation ul ul a,
+        .primary-navigation li:hover > a,
+        .primary-navigation li.focus > a,
+        .primary-navigation ul ul {
+            color: $background;
+        }
+    }
+
+    @media screen and (min-width: 1008px) {
+        #menu-home-menu ul ul a,
+        #menu-home-menu li:hover > a,
+        #menu-home-menu li.focus > a,
+        #menu-home-menu ul ul 
+  		
+        {
+            color: $background;
+        }
+    }
+
+::selection {
+        color: $background;
+    }
+
+::-moz-selection {
+        color: $background;
+    }
+
+.hentry .mejs-controls .mejs-time-rail .mejs-time-loaded {
+        background-color: $background;
+    }
+/* Generated variants of custom accent color. */
+a,
+.content-sidebar .widget a {
+    color: $accent-main;
+}
+
+.contributor-posts-link:hover,
+.button:hover,
+.button:focus,
+.slider-control-paging a:hover:before,
+.widget_calendar tbody a:hover,
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.widget input[type="button"]:hover,
+.widget input[type="button"]:focus,
+.widget input[type="reset"]:hover,
+.widget input[type="reset"]:focus,
+.widget input[type="submit"]:hover,
+.widget input[type="submit"]:focus,
+.content-sidebar .widget input[type="button"]:hover,
+.content-sidebar .widget input[type="button"]:focus,
+.content-sidebar .widget input[type="reset"]:hover,
+.content-sidebar .widget input[type="reset"]:focus,
+.content-sidebar .widget input[type="submit"]:hover,
+.content-sidebar .widget input[type="submit"]:focus,
+.ie8 .primary-navigation ul ul a:hover,
+.ie8 .primary-navigation ul ul li.focus > a,
+.ie8 .secondary-navigation ul ul a:hover,
+.ie8 .secondary-navigation ul ul li.focus > a {
+    background-color:lighten($accent-main,10%);
+}
+.search-toggle:hover,
+.search-toggle.active,
+.search-box {
+    background-color:lighten($accent-main, 10%);
+}
+
+.featured-content a:hover,
+.featured-content .entry-title a:hover,
+.widget a:hover,
+.widget-title a:hover,
+.widget_twentyfourteen_ephemera .entry-meta a:hover,
+.hentry .mejs-controls .mejs-button button:hover,
+.site-info a:hover,
+.featured-content a:hover {
+    color: $accent-second
+}
+
+a:active,
+a:hover,
+.entry-title a:hover,
+.entry-meta a:hover,
+.cat-links a:hover,
+.entry-content .edit-link a:hover,
+.post-navigation a:hover,
+.image-navigation a:hover,
+.comment-author a:hover,
+.comment-list .pingback a:hover,
+.comment-list .trackback a:hover,
+.comment-metadata a:hover,
+.comment-reply-title small a:hover,
+.content-sidebar .widget a:hover,
+.content-sidebar .widget .widget-title a:hover,
+.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
+    color:lighten($accent-main, 10%);
+}
+.page-links a:hover,
+.paging-navigation a:hover {
+    border-color: lighten($accent-main, 10%);
+}
+.entry-meta .tag-links a:hover:before {
+    border-right-color: lighten($accent-main, 10%);
+}
+.page-links a:hover,
+.entry-meta .tag-links a:hover {
+    background-color: lighten($accent-main, 10%);
+}
+@media screen and (min-width: 782px) {
+    .primary-navigation ul ul a:hover,
+    .primary-navigation ul ul li.focus > a {
+        background-color:lighten($accent-main, 10%);
+    }
+}
+
+@media screen and (min-width: 1008px) {
+    .secondary-navigation ul ul a:hover,
+    .secondary-navigation ul ul li.focus > a {
+        background-color: lighten($accent-main, 10%);
+    }
+}
+button:active,
+.button:active,
+.contributor-posts-link:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+.widget input[type="button"]:active,
+.widget input[type="reset"]:active,
+.widget input[type="submit"]:active,
+.content-sidebar .widget input[type="button"]:active,
+.content-sidebar .widget input[type="reset"]:active,
+.content-sidebar .widget input[type="submit"]:active {
+    background-color:lighten($accent-main, 10%);
+}
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a {
+    display:block;
+    background-color: lighten($accent-main, 10%);
+}
 

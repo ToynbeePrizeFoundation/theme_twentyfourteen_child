@@ -10,7 +10,7 @@
  Text Domain:  twenty-fourteen-child
 */
 /* Colors */
-/* Background Color */
+/*Background Color */
 /* line 18, sass/style.scss */
 body.custom-background {
   background-color: white;
@@ -26,46 +26,154 @@ body.custom-background {
 .slider-direction-nav a,
 .ie8 .featured-content,
 .ie8 .site:before {
-  background-color: #cad9d9;
+  background-color: #bfc4c4;
 }
 
 /* line 32, sass/style.scss */
-.site-navigation a {
-  color: #444444;
-}
-
-/* Header */
-/* line 37, sass/style.scss */
-.site-header .header-main {
-  background-color: white;
-  overflow: auto;
-}
-/* line 41, sass/style.scss */
-.site-header .header-main .header-image {
-  float: left;
-  margin: .5em 0;
-  border: 1px solid #9bc6c6;
-  width: 50px;
-}
-/* line 47, sass/style.scss */
-.site-header .header-main .site-title {
-  clear: none;
-  font-family: 'Josefin Slab', serif;
-  text-transform: uppercase;
-  font-size: 2em;
-  margin: 10px 0 10px 20px;
-}
-/* line 55, sass/style.scss */
-.site-header .header-main .site-title a {
-  color: #648c8c;
-}
-/* line 62, sass/style.scss */
-.site-header .primary-navigation {
+#secondary a {
   font-size: 12px;
 }
 
+/*Header */
+/* line 37, sass/style.scss */
+.site-header {
+  padding: .5em 0;
+  border-bottom: 1px solid white;
+}
+/* line 42, sass/style.scss */
+.site-header .header-main .site-title {
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 200;
+  max-width: 75%;
+}
+/* line 49, sass/style.scss */
+.site-header .header-main .site-title a {
+  color: #2b2b2b;
+}
+/* line 53, sass/style.scss */
+.site-header .header-main .primary-navigation {
+  font-size: 12px;
+}
+/* line 56, sass/style.scss */
+.site-header .header-main .primary-navigation .menu-toggle {
+  padding: .5em 0;
+}
+/* line 60, sass/style.scss */
+.site-header .header-main .primary-navigation.toggled-on {
+  padding: 102px 0 36px;
+}
+/* line 63, sass/style.scss */
+.site-header .header-main .search-toggle {
+  background-color: #0e8a8a;
+}
+/* line 65, sass/style.scss */
+.site-header .header-main .search-toggle:hover {
+  background-color: #13b8b8;
+}
+
+/* line 71, sass/style.scss */
+.masthead-fixed .site-main {
+  margin-top: 64px;
+}
+
 /*Links and Accents*/
-/* line 26, sass/_accent-colors.scss */
+/* line 87, sass/style.scss */
+.site:before,
+#secondary,
+.site-header,
+.site-footer,
+.featured-content,
+.featured-content
+.entry-header,
+.slider-direction-nav a,
+.ie8 .featured-content,
+.ie8 .site:before {
+  color: #2b2b2b;
+}
+/* line 89, sass/style.scss */
+.site:before h1,
+#secondary h1,
+.site-header h1,
+.site-footer h1,
+.featured-content h1,
+.featured-content
+.entry-header h1,
+.slider-direction-nav a h1,
+.ie8 .featured-content h1,
+.ie8 .site:before h1 {
+  color: #2b2b2b;
+}
+/* line 92, sass/style.scss */
+.site:before a,
+#secondary a,
+.site-header a,
+.site-footer a,
+.featured-content a,
+.featured-content
+.entry-header a,
+.slider-direction-nav a a,
+.ie8 .featured-content a,
+.ie8 .site:before a {
+  color: #2b2b2b;
+}
+
+/* line 96, sass/style.scss */
+#secondary .sub-menu a {
+  color: white;
+}
+
+/* line 99, sass/style.scss */
+#secondary .primary-sidebar h1 {
+  font-size: 14px;
+}
+/* line 100, sass/style.scss */
+#secondary .primary-sidebar ul {
+  font-size: 13px;
+}
+/* line 103, sass/style.scss */
+#secondary .primary-sidebar a {
+  color: #095c5c;
+  font-size: 13px;
+}
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#secondary .primary-sidebar a:hover {
+  color: #13b8b8;
+}
+/* line 27, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#secondary .primary-sidebar a:active {
+  color: #0e8a8a;
+}
+
+/* Extras */
+/* line 110, sass/style.scss */
+.header-image {
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* Widgets */
+/* line 115, sass/style.scss */
+#secondary .widget-area li {
+  display: block;
+}
+/* line 117, sass/style.scss */
+#secondary .widget-area li:hover {
+  background-color: #0e8a8a;
+  color: white;
+}
+/* line 121, sass/style.scss */
+#secondary .widget-area li:hover a {
+  color: white;
+}
+/* line 124, sass/style.scss */
+#secondary .widget-area li:hover:active {
+  background-color: #13b8b8;
+}
+
+/*"accent-colors"*/
+/* line 155, sass/style.scss */
 button,
 .button,
 .contributor-posts-link,
@@ -92,46 +200,69 @@ input[type="submit"],
 .ie8 .primary-navigation li.focus > a,
 .ie8 .secondary-navigation li:hover > a,
 .ie8 .secondary-navigation li.focus > a {
-  background-color: #9bc6c6;
+  background-color: #0e8a8a;
 }
 
-/* line 30, sass/_accent-colors.scss */
+/* line 159, sass/style.scss */
 .site-navigation a:hover {
-  color: #9bc6c6;
+  color: #0e8a8a;
 }
 
-/* line 34, sass/_accent-colors.scss */
-::-moz-selection {
-  background: #9bc6c6;
-}
-
-/* line 38, sass/_accent-colors.scss */
+/* Support a widely-adopted but non-standard selector for text selection styles
+ * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
+ */
+/* line 165, sass/style.scss */
 ::selection {
-  background: #9bc6c6;
+  background: #0e8a8a;
+  color: #fff;
+  text-shadow: none;
 }
 
-/* line 42, sass/_accent-colors.scss */
+/* line 171, sass/style.scss */
+::-moz-selection {
+  background: #0e8a8a;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 177, sass/style.scss */
 .paging-navigation .page-numbers.current {
-  border-color: #9bc6c6;
+  border-color: #13b8b8;
+}
+
+/* line 188, sass/style.scss */
+.site-navigation .current_page_item > a,
+.site-navigation .current_page_ancestor > a,
+#secondary .site-navigation .current_page_item > a,
+#secondary .site-navigation .current_page_ancestor > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a,
+#secondary .site-navigation .current-menu-item > a,
+#secondary .site-navigation .current-menu-ancestor > a {
+  display: block;
+  background-color: #13b8b8;
+  color: white;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 782px) {
-  /* line 49, sass/_accent-colors.scss */
+  /* line 198, sass/style.scss */
   .primary-navigation li:hover > a,
   .primary-navigation li.focus > a,
   .primary-navigation ul ul {
-    background-color: #9bc6c6;
+    background-color: #0e8a8a;
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 57, sass/_accent-colors.scss */
+  /* line 206, sass/style.scss */
   .secondary-navigation li:hover > a,
   .secondary-navigation li.focus > a,
   .secondary-navigation ul ul {
-    background-color: #9bc6c6;
+    background-color: #0e8a8a;
+    color: white;
   }
 }
-/* line 96, sass/_accent-colors.scss */
+/* line 247, sass/style.scss */
 .contributor-posts-link,
 .button,
 button,
@@ -167,57 +298,54 @@ input[type="submit"]:focus,
 .ie8 .primary-navigation li.focus > a,
 .ie8 .secondary-navigation li:hover > a,
 .ie8 .secondary-navigation li.focus > a {
-  color: #444444;
+  color: white;
 }
 
 @media screen and (min-width: 782px) {
-  /* line 104, sass/_accent-colors.scss */
+  /* line 255, sass/style.scss */
   .primary-navigation ul ul a,
   .primary-navigation li:hover > a,
   .primary-navigation li.focus > a,
   .primary-navigation ul ul {
-    color: #444444;
+    color: white;
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 113, sass/_accent-colors.scss */
-  .secondary-navigation ul ul a,
-  .secondary-navigation li:hover > a,
-  .secondary-navigation li.focus > a,
-  .secondary-navigation ul ul {
-    color: #444444;
+  /* line 266, sass/style.scss */
+  #menu-home-menu ul ul a,
+  #menu-home-menu li:hover > a,
+  #menu-home-menu li.focus > a,
+  #menu-home-menu ul ul {
+    color: white;
   }
 }
-/* line 118, sass/_accent-colors.scss */
+/* line 271, sass/style.scss */
 ::selection {
-  color: #444444;
+  color: white;
 }
 
-/* line 122, sass/_accent-colors.scss */
+/* line 275, sass/style.scss */
 ::-moz-selection {
-  color: #444444;
+  color: white;
 }
 
-/* line 126, sass/_accent-colors.scss */
+/* line 279, sass/style.scss */
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded {
-  background-color: #444444;
+  background-color: white;
 }
 
 /* Generated variants of custom accent color. */
-/* line 133, sass/_accent-colors.scss */
+/* line 284, sass/style.scss */
 a,
 .content-sidebar .widget a {
-  color: #648c8c;
+  color: #0e8a8a;
 }
 
-/* line 168, sass/_accent-colors.scss */
+/* line 316, sass/style.scss */
 .contributor-posts-link:hover,
 .button:hover,
 .button:focus,
 .slider-control-paging a:hover:before,
-.search-toggle:hover,
-.search-toggle.active,
-.search-box,
 .widget_calendar tbody a:hover,
 button:hover,
 button:focus,
@@ -243,10 +371,17 @@ input[type="submit"]:focus,
 .ie8 .primary-navigation ul ul li.focus > a,
 .ie8 .secondary-navigation ul ul a:hover,
 .ie8 .secondary-navigation ul ul li.focus > a {
-  background-color: #bbd9d9;
+  background-color: #13b8b8;
 }
 
-/* line 179, sass/_accent-colors.scss */
+/* line 321, sass/style.scss */
+.search-toggle:hover,
+.search-toggle.active,
+.search-box {
+  background-color: #13b8b8;
+}
+
+/* line 332, sass/style.scss */
 .featured-content a:hover,
 .featured-content .entry-title a:hover,
 .widget a:hover,
@@ -255,10 +390,10 @@ input[type="submit"]:focus,
 .hentry .mejs-controls .mejs-button button:hover,
 .site-info a:hover,
 .featured-content a:hover {
-  color: #bbd9d9;
+  color: #e67517;
 }
 
-/* line 198, sass/_accent-colors.scss */
+/* line 351, sass/style.scss */
 a:active,
 a:hover,
 .entry-title a:hover,
@@ -275,41 +410,41 @@ a:hover,
 .content-sidebar .widget a:hover,
 .content-sidebar .widget .widget-title a:hover,
 .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
-  color: #bbd9d9;
+  color: #13b8b8;
 }
 
-/* line 203, sass/_accent-colors.scss */
+/* line 355, sass/style.scss */
 .page-links a:hover,
 .paging-navigation a:hover {
-  border-color: #bbd9d9;
+  border-color: #13b8b8;
 }
 
-/* line 207, sass/_accent-colors.scss */
+/* line 358, sass/style.scss */
 .entry-meta .tag-links a:hover:before {
-  border-right-color: #bbd9d9;
+  border-right-color: #13b8b8;
 }
 
-/* line 212, sass/_accent-colors.scss */
+/* line 362, sass/style.scss */
 .page-links a:hover,
 .entry-meta .tag-links a:hover {
-  background-color: #bbd9d9;
+  background-color: #13b8b8;
 }
 
 @media screen and (min-width: 782px) {
-  /* line 218, sass/_accent-colors.scss */
+  /* line 367, sass/style.scss */
   .primary-navigation ul ul a:hover,
   .primary-navigation ul ul li.focus > a {
-    background-color: #bbd9d9;
+    background-color: #13b8b8;
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 225, sass/_accent-colors.scss */
+  /* line 374, sass/style.scss */
   .secondary-navigation ul ul a:hover,
   .secondary-navigation ul ul li.focus > a {
-    background-color: #bbd9d9;
+    background-color: #13b8b8;
   }
 }
-/* line 241, sass/_accent-colors.scss */
+/* line 389, sass/style.scss */
 button:active,
 .button:active,
 .contributor-posts-link:active,
@@ -322,13 +457,14 @@ input[type="submit"]:active,
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-  background-color: #f4d8c0;
+  background-color: #13b8b8;
 }
 
-/* line 248, sass/_accent-colors.scss */
+/* line 395, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-  color: #f4d8c0;
+  display: block;
+  background-color: #13b8b8;
 }

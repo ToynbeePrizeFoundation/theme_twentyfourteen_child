@@ -24,11 +24,11 @@ input[type="submit"],
 .ie8 .primary-navigation li.focus > a,
 .ie8 .secondary-navigation li:hover > a,
 .ie8 .secondary-navigation li.focus > a {
-    background-color: $accent-second;
+    background-color: $accent-mains;
 }
 
 .site-navigation a:hover {
-    color: $accent-second;
+    color: $accent-main;
 }
 
 ::-moz-selection {
@@ -138,9 +138,6 @@ a,
 .button:hover,
 .button:focus,
 .slider-control-paging a:hover:before,
-.search-toggle:hover,
-.search-toggle.active,
-.search-box,
 .widget_calendar tbody a:hover,
 button:hover,
 button:focus,
@@ -166,7 +163,12 @@ input[type="submit"]:focus,
 .ie8 .primary-navigation ul ul li.focus > a,
 .ie8 .secondary-navigation ul ul a:hover,
 .ie8 .secondary-navigation ul ul li.focus > a {
-    background-color:lighten($accent-second, 10%);
+    background-color:$accent-second;
+}
+.search-toggle:hover,
+.search-toggle.active,
+.search-box {
+    background-color:lighten($accent-second, 5%);
 }
 
 .featured-content a:hover,
@@ -177,7 +179,7 @@ input[type="submit"]:focus,
 .hentry .mejs-controls .mejs-button button:hover,
 .site-info a:hover,
 .featured-content a:hover {
-    color: lighten($accent-second, 10%);
+    color: $accent-second;
 }
 
 a:active,
@@ -196,21 +198,21 @@ a:hover,
 .content-sidebar .widget a:hover,
 .content-sidebar .widget .widget-title a:hover,
 .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
-    color: lighten($accent-second, 10%);
+    color:$accent-second;
 }
 
 .page-links a:hover,
 .paging-navigation a:hover {
-    border-color: lighten($accent-second, 10%);
+    border-color: $accent-second;
 }
 
 .entry-meta .tag-links a:hover:before {
-    border-right-color: lighten($accent-second, 10%);
+    border-right-color: $accent-second;
 }
 
 .page-links a:hover,
 .entry-meta .tag-links a:hover {
-    background-color: lighten($accent-second, 10%);
+    background-color: $accent-second;
 }
 
 @media screen and (min-width: 782px) {
@@ -239,12 +241,12 @@ input[type="submit"]:active,
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-    background-color: $accent-complement;
+    background-color: darken($accent-main, 10%);
 }
 
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-    color: $accent-complement;
+    color: darken($accent-main, 10%);
 }
