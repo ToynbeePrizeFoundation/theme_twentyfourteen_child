@@ -13,6 +13,9 @@
 @import "compass";
 @import "base";
 
+/******************************
+/** Colors 
+*******************************/
 
 /*Background Color */
 body.custom-background{
@@ -29,11 +32,10 @@ body.custom-background{
 		.ie8 .site:before {
 			background-color: $accent-base;
 	}
-#secondary a {
-	font-size: 12px;
-}
 
-/*Header */
+/******************************
+/** Header 
+*******************************/
 .site-header {
 	padding:.5em 0;
 	border-bottom:1px solid white;
@@ -43,11 +45,14 @@ body.custom-background{
 			font-family: 'Josefin Slab', serif;
 			text-transform: uppercase;
 			font-size: 2em;
-			font-weight: 200;
+			font-weight: 400;
 			max-width:75%;
 
 			a {
 				color:$text;
+                &:active {
+                    color: $accent-main;
+                }
 			}
 		}
 		.primary-navigation {
@@ -72,8 +77,78 @@ body.custom-background{
 	margin-top: 64px;
 
 }
+/************************************
+/*General
+*************************************/
+.padded-list li {
+  padding:.5em 0;
+}
+.entry-meta .tag-links a{
+    border-radius:2px 2px 2px 2px;
+    margin-left:0;
+    &:before {
+        border-top:none;
+        border-right:none; 
+    }
+}
+.forum{
+    margin-bottom:1em;
+    padding-top:.5em;
+    border-top: 5px solid black;
+}
+.contributor-avatar{
+    margin-left:0;
+}
+.cat-links a {
+    color:$accent-main;
+    &:hover {
+        color:$accent-second;
+    }
+    &:active {
+        color:$text;
+    }
+}
 
-/*Links and Accents*/
+/************************************
+/* Sidebar
+*************************************/
+
+#secondary {
+    font-size:13px;
+    a {font-size:13px; font-weight: 400;}
+    p {font-size:14px;}
+} 
+#content-sidebar {
+    font-size: 14px;
+    a {font-size: 14px;}
+} 
+
+/************************************
+/*List-Users Plugin
+*************************************/
+.tern_members_search {
+    display:none;
+}
+.tern_members_view {
+    display:none;
+}
+.tern_members_alpha {
+    display:none;
+}
+
+/************************************
+/*Widgets to Page Plugin
+*************************************/
+.widgets_on_page a{
+    color: $accent-main;
+}
+.widgets_on_page ul {
+    margin-left:0;
+}
+
+/******************************
+/** Links and Accents 
+*******************************/
 
 .site:before, 
 	#secondary, 
@@ -96,37 +171,34 @@ body.custom-background{
 #secondary .sub-menu a{ color:white;}
 
 #secondary .primary-sidebar {
+    font-size:14px;
 	h1 {font-size: 14px;}
-	ul{
-		font-size:13px;
-	}
 	a{
-		@include link-colors(darken($accent-main, 10%), lighten($accent-main, 10%), $accent-main);
-		font-size: 13px;
+		@include link-colors(darken($accent-main, 10%), $accent-second, $accent-main, $text);
+		font-size: 14px;
 	}
 }
+#content-sidebar .widget li a {
+    &:visited {
+        color: $text;
+    }
+    &:hover{
+        color: $accent-second;
+    }
+}
+/******************************
+/** Extras 
+*******************************/
 
-/* Extras */
 .header-image{
 	margin:10px 0;
 	width:100%;
+    max-width: 162px;
 }
-/* Widgets */
-#secondary .widget-area li{
-	display:block;
-	&:hover{
-		background-color: $accent-main;
-		color:white;
 
-		a {
-			color:white;
-		}
-	&:active{
-		background-color: lighten($accent-main, 10%);	
-	}
-	}
-}
-/*"accent-colors"*/
+/******************************
+/** Accent Colors 
+*******************************/
 button,
 .button,
 .contributor-posts-link,
@@ -185,7 +257,7 @@ input[type="submit"],
 	.site-navigation .current-menu-item > a, 
 	.site-navigation .current-menu-ancestor > a,
 	#secondary .site-navigation .current-menu-item > a,
-	#secondary .site-navigation .current-menu-ancestor > a, {
+	#secondary .site-navigation .current-menu-ancestor > a {
 		display:block;
 		background-color: lighten($accent-main, 10%);
 		color: $background;
@@ -201,9 +273,9 @@ input[type="submit"],
 }
 
 @media screen and (min-width: 1008px) {
-    .secondary-navigation li:hover > a,
-    .secondary-navigation li.focus > a,
-    .secondary-navigation ul ul {
+    #secondary .secondary-navigation li:hover > a,
+    #secondary .secondary-navigation li.focus > a,
+    #secondary .secondary-navigation ul ul {
         background-color: $accent-main;
         color:white;
 
@@ -349,18 +421,18 @@ a:hover,
 .content-sidebar .widget a:hover,
 .content-sidebar .widget .widget-title a:hover,
 .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
-    color:lighten($accent-main, 10%);
+    color:$accent-second;
 }
 .page-links a:hover,
 .paging-navigation a:hover {
-    border-color: lighten($accent-main, 10%);
+    border-color: $accent-second;
 }
 .entry-meta .tag-links a:hover:before {
-    border-right-color: lighten($accent-main, 10%);
+    border-right-color: $accent-second;
 }
 .page-links a:hover,
 .entry-meta .tag-links a:hover {
-    background-color: lighten($accent-main, 10%);
+    background-color: $accent-second;
 }
 @media screen and (min-width: 782px) {
     .primary-navigation ul ul a:hover,
