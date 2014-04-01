@@ -94,7 +94,6 @@ body.custom-background{
 .forum{
     margin-top:0;
     margin-bottom:1em;
-    padding-top:.5em;
     border-top: 5px solid black;
     font-variant: small-caps;
     font-family: 'Crimson Text', serif;
@@ -131,6 +130,9 @@ body.custom-background{
 #content-sidebar {
     font-size: 14px;
     a {font-size: 14px;}
+    .textwidget li{
+        padding-bottom:.5em;
+    }
 } 
 
 /************************************
