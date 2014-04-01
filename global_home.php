@@ -26,7 +26,7 @@ get_header(); ?>
     <div id="primary" class="content-area">
         <div id="content" class="site-content" role="main">
             <div class="entry-header">
-                <h1 class="entry-title">Global History Forum</h1>
+                <h1 class="entry-title title">Global History Forum</h1>
             </div>
             <?php
                 query_posts('tag=forum');
