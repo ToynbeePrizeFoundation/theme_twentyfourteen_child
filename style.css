@@ -135,7 +135,7 @@ body.custom-background {
 /** Navigation 
 *******************************/
 /* line 119, sass/style.scss */
-.submenu {
+.secondary-navigation ul ul {
   display: none;
 }
 
