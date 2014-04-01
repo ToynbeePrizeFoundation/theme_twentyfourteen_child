@@ -85,23 +85,23 @@ body.custom-background {
 /************************************
 /*General
 *************************************/
-/* line 83, sass/style.scss */
+/* line 84, sass/style.scss */
 .padded-list li {
   padding: .5em 0;
 }
 
-/* line 86, sass/style.scss */
+/* line 87, sass/style.scss */
 .entry-meta .tag-links a {
   border-radius: 2px 2px 2px 2px;
   margin-left: 0;
 }
-/* line 89, sass/style.scss */
+/* line 90, sass/style.scss */
 .entry-meta .tag-links a:before {
   border-top: none;
   border-right: none;
 }
 
-/* line 94, sass/style.scss */
+/* line 95, sass/style.scss */
 .forum {
   margin-top: 0;
   margin-bottom: 1em;
@@ -112,20 +112,20 @@ body.custom-background {
   font-size: 2.5em;
 }
 
-/* line 103, sass/style.scss */
+/* line 104, sass/style.scss */
 .contributor-avatar {
   margin-left: 0;
 }
 
-/* line 106, sass/style.scss */
+/* line 107, sass/style.scss */
 .cat-links a {
   color: #0e8a8a;
 }
-/* line 108, sass/style.scss */
+/* line 109, sass/style.scss */
 .cat-links a:hover {
   color: #d17c29;
 }
-/* line 111, sass/style.scss */
+/* line 112, sass/style.scss */
 .cat-links a:active {
   color: #2b2b2b;
 }
@@ -133,7 +133,7 @@ body.custom-background {
 /******************************
 /** Navigation 
 *******************************/
-/* line 118, sass/style.scss */
+/* line 119, sass/style.scss */
 .secondary-navigation ul ul {
   display: none;
 }
@@ -141,29 +141,29 @@ body.custom-background {
 /************************************
 /* Sidebar
 *************************************/
-/* line 125, sass/style.scss */
+/* line 126, sass/style.scss */
 #secondary {
   font-size: 13px;
 }
-/* line 127, sass/style.scss */
+/* line 128, sass/style.scss */
 #secondary a {
   font-size: 13px;
   font-weight: 400;
 }
-/* line 128, sass/style.scss */
+/* line 129, sass/style.scss */
 #secondary p {
   font-size: 14px;
 }
 
-/* line 130, sass/style.scss */
+/* line 131, sass/style.scss */
 #content-sidebar {
   font-size: 14px;
 }
-/* line 132, sass/style.scss */
+/* line 133, sass/style.scss */
 #content-sidebar a {
   font-size: 14px;
 }
-/* line 133, sass/style.scss */
+/* line 134, sass/style.scss */
 #content-sidebar .textwidget li {
   padding-bottom: .5em;
 }
@@ -171,17 +171,17 @@ body.custom-background {
 /************************************
 /*List-Users Plugin
 *************************************/
-/* line 141, sass/style.scss */
+/* line 142, sass/style.scss */
 .tern_members_search {
   display: none;
 }
 
-/* line 144, sass/style.scss */
+/* line 145, sass/style.scss */
 .tern_members_view {
   display: none;
 }
 
-/* line 147, sass/style.scss */
+/* line 148, sass/style.scss */
 .tern_members_alpha {
   display: none;
 }
@@ -189,20 +189,29 @@ body.custom-background {
 /************************************
 /*Widgets to Page Plugin
 *************************************/
-/* line 154, sass/style.scss */
+/* line 155, sass/style.scss */
+.widgets_on_page {
+  padding: 1em 0;
+}
+/* line 157, sass/style.scss */
 .widgets_on_page a {
   color: #0e8a8a;
+  font-size: 14em;
 }
-
-/* line 157, sass/style.scss */
+/* line 161, sass/style.scss */
 .widgets_on_page ul {
   margin-left: 0;
+}
+
+/* line 166, sass/style.scss */
+.rpwe-time {
+  font-size: 13px;
 }
 
 /******************************
 /** Links and Accents 
 *******************************/
-/* line 174, sass/style.scss */
+/* line 182, sass/style.scss */
 .site:before,
 #secondary,
 .site-header,
@@ -215,7 +224,7 @@ body.custom-background {
 .ie8 .site:before {
   color: #2b2b2b;
 }
-/* line 176, sass/style.scss */
+/* line 184, sass/style.scss */
 .site:before h1,
 #secondary h1,
 .site-header h1,
@@ -228,7 +237,7 @@ body.custom-background {
 .ie8 .site:before h1 {
   color: #2b2b2b;
 }
-/* line 179, sass/style.scss */
+/* line 187, sass/style.scss */
 .site:before a,
 #secondary a,
 .site-header a,
@@ -242,20 +251,20 @@ body.custom-background {
   color: #2b2b2b;
 }
 
-/* line 183, sass/style.scss */
+/* line 191, sass/style.scss */
 #secondary .sub-menu a {
   color: white;
 }
 
-/* line 185, sass/style.scss */
+/* line 193, sass/style.scss */
 #secondary .primary-sidebar {
   font-size: 14px;
 }
-/* line 187, sass/style.scss */
+/* line 195, sass/style.scss */
 #secondary .primary-sidebar h1 {
   font-size: 14px;
 }
-/* line 188, sass/style.scss */
+/* line 196, sass/style.scss */
 #secondary .primary-sidebar a {
   color: #095c5c;
   font-size: 14px;
@@ -273,11 +282,11 @@ body.custom-background {
   color: #0e8a8a;
 }
 
-/* line 194, sass/style.scss */
+/* line 202, sass/style.scss */
 #content-sidebar .widget li a:visited {
   color: #2b2b2b;
 }
-/* line 197, sass/style.scss */
+/* line 205, sass/style.scss */
 #content-sidebar .widget li a:hover {
   color: #d17c29;
 }
@@ -285,7 +294,7 @@ body.custom-background {
 /******************************
 /** Extras 
 *******************************/
-/* line 205, sass/style.scss */
+/* line 213, sass/style.scss */
 .header-image {
   margin: 10px 0;
   width: 100%;
@@ -295,7 +304,7 @@ body.custom-background {
 /******************************
 /** Accent Colors 
 *******************************/
-/* line 239, sass/style.scss */
+/* line 247, sass/style.scss */
 button,
 .button,
 .contributor-posts-link,
@@ -325,7 +334,7 @@ input[type="submit"],
   background-color: #0e8a8a;
 }
 
-/* line 243, sass/style.scss */
+/* line 251, sass/style.scss */
 .site-navigation a:hover {
   color: #0e8a8a;
 }
@@ -333,26 +342,26 @@ input[type="submit"],
 /* Support a widely-adopted but non-standard selector for text selection styles
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
  */
-/* line 249, sass/style.scss */
+/* line 257, sass/style.scss */
 ::selection {
   background: #0e8a8a;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 255, sass/style.scss */
+/* line 263, sass/style.scss */
 ::-moz-selection {
   background: #0e8a8a;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 261, sass/style.scss */
+/* line 269, sass/style.scss */
 .paging-navigation .page-numbers.current {
   border-color: #13b8b8;
 }
 
-/* line 272, sass/style.scss */
+/* line 280, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 #secondary .site-navigation .current_page_item > a,
@@ -368,7 +377,7 @@ input[type="submit"],
 }
 
 @media screen and (min-width: 782px) {
-  /* line 282, sass/style.scss */
+  /* line 290, sass/style.scss */
   .primary-navigation li:hover > a,
   .primary-navigation li.focus > a,
   .primary-navigation ul ul {
@@ -376,7 +385,7 @@ input[type="submit"],
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 290, sass/style.scss */
+  /* line 298, sass/style.scss */
   #secondary .secondary-navigation li:hover > a,
   #secondary .secondary-navigation li.focus > a,
   #secondary .secondary-navigation ul ul {
@@ -384,7 +393,7 @@ input[type="submit"],
     color: white;
   }
 }
-/* line 331, sass/style.scss */
+/* line 339, sass/style.scss */
 .contributor-posts-link,
 .button,
 button,
@@ -424,7 +433,7 @@ input[type="submit"]:focus,
 }
 
 @media screen and (min-width: 782px) {
-  /* line 339, sass/style.scss */
+  /* line 347, sass/style.scss */
   .primary-navigation ul ul a,
   .primary-navigation li:hover > a,
   .primary-navigation li.focus > a,
@@ -433,7 +442,7 @@ input[type="submit"]:focus,
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 350, sass/style.scss */
+  /* line 358, sass/style.scss */
   #menu-home-menu ul ul a,
   #menu-home-menu li:hover > a,
   #menu-home-menu li.focus > a,
@@ -441,29 +450,29 @@ input[type="submit"]:focus,
     color: white;
   }
 }
-/* line 355, sass/style.scss */
+/* line 363, sass/style.scss */
 ::selection {
   color: white;
 }
 
-/* line 359, sass/style.scss */
+/* line 367, sass/style.scss */
 ::-moz-selection {
   color: white;
 }
 
-/* line 363, sass/style.scss */
+/* line 371, sass/style.scss */
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded {
   background-color: white;
 }
 
 /* Generated variants of custom accent color. */
-/* line 368, sass/style.scss */
+/* line 376, sass/style.scss */
 a,
 .content-sidebar .widget a {
   color: #0e8a8a;
 }
 
-/* line 400, sass/style.scss */
+/* line 408, sass/style.scss */
 .contributor-posts-link:hover,
 .button:hover,
 .button:focus,
@@ -496,14 +505,14 @@ input[type="submit"]:focus,
   background-color: #13b8b8;
 }
 
-/* line 405, sass/style.scss */
+/* line 413, sass/style.scss */
 .search-toggle:hover,
 .search-toggle.active,
 .search-box {
   background-color: #13b8b8;
 }
 
-/* line 416, sass/style.scss */
+/* line 424, sass/style.scss */
 .featured-content a:hover,
 .featured-content .entry-title a:hover,
 .widget a:hover,
@@ -515,7 +524,7 @@ input[type="submit"]:focus,
   color: #d17c29;
 }
 
-/* line 435, sass/style.scss */
+/* line 443, sass/style.scss */
 a:active,
 a:hover,
 .entry-title a:hover,
@@ -535,38 +544,38 @@ a:hover,
   color: #d17c29;
 }
 
-/* line 439, sass/style.scss */
+/* line 447, sass/style.scss */
 .page-links a:hover,
 .paging-navigation a:hover {
   border-color: #d17c29;
 }
 
-/* line 442, sass/style.scss */
+/* line 450, sass/style.scss */
 .entry-meta .tag-links a:hover:before {
   border-right-color: #d17c29;
 }
 
-/* line 446, sass/style.scss */
+/* line 454, sass/style.scss */
 .page-links a:hover,
 .entry-meta .tag-links a:hover {
   background-color: #d17c29;
 }
 
 @media screen and (min-width: 782px) {
-  /* line 451, sass/style.scss */
+  /* line 459, sass/style.scss */
   .primary-navigation ul ul a:hover,
   .primary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 458, sass/style.scss */
+  /* line 466, sass/style.scss */
   .secondary-navigation ul ul a:hover,
   .secondary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
-/* line 473, sass/style.scss */
+/* line 481, sass/style.scss */
 button:active,
 .button:active,
 .contributor-posts-link:active,
@@ -582,7 +591,7 @@ input[type="submit"]:active,
   background-color: #13b8b8;
 }
 
-/* line 479, sass/style.scss */
+/* line 487, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,

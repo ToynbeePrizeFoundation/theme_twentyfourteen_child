@@ -80,6 +80,7 @@ body.custom-background{
 /************************************
 /*General
 *************************************/
+
 .padded-list li {
   padding:.5em 0;
 }
@@ -151,13 +152,20 @@ body.custom-background{
 /************************************
 /*Widgets to Page Plugin
 *************************************/
-.widgets_on_page a{
-    color: $accent-main;
-}
-.widgets_on_page ul {
-    margin-left:0;
+.widgets_on_page{
+    padding:1em 0;
+    a{
+        color: $accent-main;
+        font-size: 14em;
+    }
+    ul {
+        margin-left:0;
+    }
 }
 
+.rpwe-time {
+    font-size: 13px;
+}
 /******************************
 /** Links and Accents 
 *******************************/

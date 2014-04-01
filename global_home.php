@@ -25,7 +25,9 @@ get_header(); ?>
 ?>
     <div id="primary" class="content-area">
         <div id="content" class="site-content" role="main">
-
+            <div class="entry-header">
+                <h1 class="forum">Global History Forum</h1>
+            </div>
             <?php
                 query_posts('category_name=ngh');
                 // Start the Loop.
