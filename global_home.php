@@ -29,7 +29,7 @@ get_header(); ?>
                 <h1 class="forum">Global History Forum</h1>
             </div>
             <?php
-                query_posts('category_name=ngh');
+                query_posts('tag=forum');
                 // Start the Loop.
                 while ( have_posts() ) : the_post();
 
