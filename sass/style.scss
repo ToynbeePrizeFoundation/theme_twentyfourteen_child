@@ -132,7 +132,9 @@ body.custom-background{
         padding-bottom:.5em;
     }
 } 
-
+.secondary-navigation li {
+    border-top:1px solid $background;
+}
 /************************************
 /*List-Users Plugin
 *************************************/
