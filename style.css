@@ -101,7 +101,12 @@ body.custom-background {
   border-right: none;
 }
 
-/* line 96, sass/style.scss */
+/* line 95, sass/style.scss */
+.entry-header.top {
+  border-top: 5px solid black;
+}
+
+/* line 98, sass/style.scss */
 .title {
   margin-top: 0;
   margin-bottom: 1em;
@@ -109,25 +114,25 @@ body.custom-background {
   font-weight: 500;
 }
 
-/* line 103, sass/style.scss */
+/* line 104, sass/style.scss */
 .singular .site-content .hentry.has-post-thumbnail {
   border-left: 1px solid white;
 }
 
-/* line 107, sass/style.scss */
+/* line 108, sass/style.scss */
 .contributor-avatar {
   margin-left: 0;
 }
 
-/* line 110, sass/style.scss */
+/* line 111, sass/style.scss */
 .cat-links a {
   color: #0e8a8a;
 }
-/* line 112, sass/style.scss */
+/* line 113, sass/style.scss */
 .cat-links a:hover {
   color: #d17c29;
 }
-/* line 115, sass/style.scss */
+/* line 116, sass/style.scss */
 .cat-links a:active {
   color: #2b2b2b;
 }
@@ -135,7 +140,7 @@ body.custom-background {
 /******************************
 /** Navigation 
 *******************************/
-/* line 122, sass/style.scss */
+/* line 123, sass/style.scss */
 .secondary-navigation ul ul {
   display: none;
 }
@@ -143,10 +148,9 @@ body.custom-background {
 /************************************
 /* Sidebar
 *************************************/
-/* line 129, sass/style.scss */
+/* line 130, sass/style.scss */
 #secondary {
   font-size: 13px;
-  border-right: 1px solid white;
 }
 /* line 132, sass/style.scss */
 #secondary a {

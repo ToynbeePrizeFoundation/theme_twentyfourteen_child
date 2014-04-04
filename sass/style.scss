@@ -92,14 +92,15 @@ body.custom-background{
         border-right:none; 
     }
 }
-
+.entry-header.top {
+    border-top: 5px solid black;
+}
 .title{
     margin-top:0;
     margin-bottom:1em;
     padding: .5em 0;
     font-weight:500;
 }
-
 .singular .site-content .hentry.has-post-thumbnail{
     border-left:1px solid white;
 }
@@ -128,7 +129,6 @@ body.custom-background{
 
 #secondary {
     font-size:13px;
-    border-right:1px solid white;
     a {font-size:13px; font-weight: 400;}
     p {font-size:14px;}
 } 
