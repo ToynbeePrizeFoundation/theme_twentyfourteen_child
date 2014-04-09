@@ -1,7 +1,7 @@
 <?php
-function sort_users($user_a, $user_b) {
-    return strcmp(get_user_meta($user_a->ID, 'last_name', true), get_user_meta($user_b->ID, 'last_name', true));
-}
+// function sort_users($user_a, $user_b) {
+//     return strcmp(get_user_meta($user_a->ID, 'last_name', true), get_user_meta($user_b->ID, 'last_name', true));
+// }
 
 /*** 
 /* Add Guest Author Capabilities
