@@ -194,11 +194,28 @@ body.custom-background{
 			color:$text;
 		}
 }
+
+#primary-navigation{
+    .focus {
+        color:white;
+    }
+    a{
+        color:$text;
+        &:hover{
+            color:white;
+        }
+        
+    }
+}
+#secondary a {color: $text;}
 #secondary .sub-menu a{ color:white;}
 
 #secondary .primary-sidebar {
     font-size:14px;
-	h1 {font-size: 14px;}
+	h1 {
+        font-size: 14px;
+        color:$text;
+    }
 	a{
 		@include link-colors(darken($accent-main, 10%), $accent-second, $accent-main, $text);
 		font-size: 14px;
@@ -287,10 +304,11 @@ input[type="submit"],
 	}
 
 @media screen and (min-width: 782px) {
-    .primary-navigation li:hover > a,
-    .primary-navigation li.focus > a,
-    .primary-navigation ul ul {
+    #primary-navigation li:hover > a,
+    #primary-navigation li.focus > a,
+    #primary-navigation ul ul {
         background-color: $accent-main;
+        color:white;
     }
 }
 
@@ -362,13 +380,13 @@ input[type="submit"],
         }
     }
 
-::selection {
+/*::selection {
         color: $background;
     }
 
 ::-moz-selection {
         color: $background;
-    }
+    }*/
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded {
         background-color: $background;
