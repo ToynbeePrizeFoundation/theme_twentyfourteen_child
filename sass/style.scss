@@ -262,14 +262,10 @@ input[type="submit"],
  */
 ::selection {
 	background: $accent-main;
-	color: #fff;
-	text-shadow: none;
 }
 
 ::-moz-selection {
 	background: $accent-main;
-	color: #fff;
-	text-shadow: none;
 }
 
 .paging-navigation .page-numbers.current {

@@ -357,23 +357,19 @@ input[type="submit"],
 /* line 263, sass/style.scss */
 ::selection {
   background: #0e8a8a;
-  color: #fff;
-  text-shadow: none;
 }
 
-/* line 269, sass/style.scss */
+/* line 267, sass/style.scss */
 ::-moz-selection {
   background: #0e8a8a;
-  color: #fff;
-  text-shadow: none;
 }
 
-/* line 275, sass/style.scss */
+/* line 271, sass/style.scss */
 .paging-navigation .page-numbers.current {
   border-color: #13b8b8;
 }
 
-/* line 286, sass/style.scss */
+/* line 282, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 #secondary .site-navigation .current_page_item > a,
@@ -389,7 +385,7 @@ input[type="submit"],
 }
 
 @media screen and (min-width: 782px) {
-  /* line 296, sass/style.scss */
+  /* line 292, sass/style.scss */
   .primary-navigation li:hover > a,
   .primary-navigation li.focus > a,
   .primary-navigation ul ul {
@@ -397,7 +393,7 @@ input[type="submit"],
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 304, sass/style.scss */
+  /* line 300, sass/style.scss */
   #secondary .secondary-navigation li:hover > a,
   #secondary .secondary-navigation li.focus > a,
   #secondary .secondary-navigation ul ul {
@@ -405,7 +401,7 @@ input[type="submit"],
     color: white;
   }
 }
-/* line 345, sass/style.scss */
+/* line 341, sass/style.scss */
 .contributor-posts-link,
 .button,
 button,
@@ -445,7 +441,7 @@ input[type="submit"]:focus,
 }
 
 @media screen and (min-width: 782px) {
-  /* line 353, sass/style.scss */
+  /* line 349, sass/style.scss */
   .primary-navigation ul ul a,
   .primary-navigation li:hover > a,
   .primary-navigation li.focus > a,
@@ -454,7 +450,7 @@ input[type="submit"]:focus,
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 364, sass/style.scss */
+  /* line 360, sass/style.scss */
   #menu-home-menu ul ul a,
   #menu-home-menu li:hover > a,
   #menu-home-menu li.focus > a,
@@ -462,29 +458,29 @@ input[type="submit"]:focus,
     color: white;
   }
 }
-/* line 369, sass/style.scss */
+/* line 365, sass/style.scss */
 ::selection {
   color: white;
 }
 
-/* line 373, sass/style.scss */
+/* line 369, sass/style.scss */
 ::-moz-selection {
   color: white;
 }
 
-/* line 377, sass/style.scss */
+/* line 373, sass/style.scss */
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded {
   background-color: white;
 }
 
 /* Generated variants of custom accent color. */
-/* line 382, sass/style.scss */
+/* line 378, sass/style.scss */
 a,
 .content-sidebar .widget a {
   color: #0e8a8a;
 }
 
-/* line 414, sass/style.scss */
+/* line 410, sass/style.scss */
 .contributor-posts-link:hover,
 .button:hover,
 .button:focus,
@@ -517,14 +513,14 @@ input[type="submit"]:focus,
   background-color: #13b8b8;
 }
 
-/* line 419, sass/style.scss */
+/* line 415, sass/style.scss */
 .search-toggle:hover,
 .search-toggle.active,
 .search-box {
   background-color: #13b8b8;
 }
 
-/* line 430, sass/style.scss */
+/* line 426, sass/style.scss */
 .featured-content a:hover,
 .featured-content .entry-title a:hover,
 .widget a:hover,
@@ -536,7 +532,7 @@ input[type="submit"]:focus,
   color: #d17c29;
 }
 
-/* line 449, sass/style.scss */
+/* line 445, sass/style.scss */
 a:active,
 a:hover,
 .entry-title a:hover,
@@ -556,38 +552,38 @@ a:hover,
   color: #d17c29;
 }
 
-/* line 453, sass/style.scss */
+/* line 449, sass/style.scss */
 .page-links a:hover,
 .paging-navigation a:hover {
   border-color: #d17c29;
 }
 
-/* line 456, sass/style.scss */
+/* line 452, sass/style.scss */
 .entry-meta .tag-links a:hover:before {
   border-right-color: #d17c29;
 }
 
-/* line 460, sass/style.scss */
+/* line 456, sass/style.scss */
 .page-links a:hover,
 .entry-meta .tag-links a:hover {
   background-color: #d17c29;
 }
 
 @media screen and (min-width: 782px) {
-  /* line 465, sass/style.scss */
+  /* line 461, sass/style.scss */
   .primary-navigation ul ul a:hover,
   .primary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 472, sass/style.scss */
+  /* line 468, sass/style.scss */
   .secondary-navigation ul ul a:hover,
   .secondary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
-/* line 487, sass/style.scss */
+/* line 483, sass/style.scss */
 button:active,
 .button:active,
 .contributor-posts-link:active,
@@ -603,7 +599,7 @@ input[type="submit"]:active,
   background-color: #13b8b8;
 }
 
-/* line 493, sass/style.scss */
+/* line 489, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
