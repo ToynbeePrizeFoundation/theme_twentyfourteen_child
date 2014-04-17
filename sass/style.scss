@@ -123,10 +123,13 @@ body.custom-background{
 .secondary-navigation ul ul{
     display:none;
 }
+.site-header .header-main .primary-navigation.toggled-on {
+    padding-bottom:12px;    
+
+}
 .primary-navigation.toggled-on .nav-menu {
     clear:both;
     width:100%;
-    padding-bottom:12px;
     a:hover{
         color:$accent-base;
     }

@@ -146,21 +146,25 @@ body.custom-background {
 }
 
 /* line 126, sass/style.scss */
+.site-header .header-main .primary-navigation.toggled-on {
+  padding-bottom: 12px;
+}
+
+/* line 130, sass/style.scss */
 .primary-navigation.toggled-on .nav-menu {
   clear: both;
   width: 100%;
-  padding-bottom: 12px;
 }
-/* line 130, sass/style.scss */
+/* line 133, sass/style.scss */
 .primary-navigation.toggled-on .nav-menu a:hover {
   color: #ebeff2;
 }
 
-/* line 134, sass/style.scss */
+/* line 137, sass/style.scss */
 #primary-navigation .toggled-on > a {
   color: #ebeff2;
 }
-/* line 136, sass/style.scss */
+/* line 139, sass/style.scss */
 #primary-navigation .toggled-on > a:hover {
   color: #ebeff2;
 }
@@ -168,34 +172,34 @@ body.custom-background {
 /************************************
 /* Sidebar
 *************************************/
-/* line 145, sass/style.scss */
+/* line 148, sass/style.scss */
 #secondary {
   font-size: 13px;
 }
-/* line 147, sass/style.scss */
+/* line 150, sass/style.scss */
 #secondary a {
   font-size: 13px;
   font-weight: 400;
 }
-/* line 148, sass/style.scss */
+/* line 151, sass/style.scss */
 #secondary p {
   font-size: 14px;
 }
 
-/* line 150, sass/style.scss */
+/* line 153, sass/style.scss */
 #content-sidebar {
   font-size: 14px;
 }
-/* line 152, sass/style.scss */
+/* line 155, sass/style.scss */
 #content-sidebar a {
   font-size: 14px;
 }
-/* line 153, sass/style.scss */
+/* line 156, sass/style.scss */
 #content-sidebar .textwidget li {
   padding-bottom: .5em;
 }
 
-/* line 157, sass/style.scss */
+/* line 160, sass/style.scss */
 .secondary-navigation li {
   border-top: 1px solid white;
 }
@@ -203,17 +207,17 @@ body.custom-background {
 /************************************
 /*List-Users Plugin
 *************************************/
-/* line 163, sass/style.scss */
+/* line 166, sass/style.scss */
 .tern_members_search {
   display: none;
 }
 
-/* line 166, sass/style.scss */
+/* line 169, sass/style.scss */
 .tern_members_view {
   display: none;
 }
 
-/* line 169, sass/style.scss */
+/* line 172, sass/style.scss */
 .tern_members_alpha {
   display: none;
 }
@@ -221,21 +225,21 @@ body.custom-background {
 /************************************
 /*Widgets to Page Plugin
 *************************************/
-/* line 176, sass/style.scss */
+/* line 179, sass/style.scss */
 .widgets_on_page {
   padding: 1em 0;
 }
-/* line 178, sass/style.scss */
+/* line 181, sass/style.scss */
 .widgets_on_page a {
   color: #0e8a8a;
   font-size: 14px;
 }
-/* line 182, sass/style.scss */
+/* line 185, sass/style.scss */
 .widgets_on_page ul {
   margin-left: 0;
 }
 
-/* line 187, sass/style.scss */
+/* line 190, sass/style.scss */
 .rpwe-time {
   font-size: 13px;
 }
@@ -243,7 +247,7 @@ body.custom-background {
 /******************************
 /** Links and Accents 
 *******************************/
-/* line 203, sass/style.scss */
+/* line 206, sass/style.scss */
 .site:before,
 #secondary,
 .site-header,
@@ -256,7 +260,7 @@ body.custom-background {
 .ie8 .site:before {
   color: #2b2b2b;
 }
-/* line 205, sass/style.scss */
+/* line 208, sass/style.scss */
 .site:before h1,
 #secondary h1,
 .site-header h1,
@@ -269,7 +273,7 @@ body.custom-background {
 .ie8 .site:before h1 {
   color: #2b2b2b;
 }
-/* line 208, sass/style.scss */
+/* line 211, sass/style.scss */
 .site:before a,
 #secondary a,
 .site-header a,
@@ -283,39 +287,39 @@ body.custom-background {
   color: #2b2b2b;
 }
 
-/* line 214, sass/style.scss */
+/* line 217, sass/style.scss */
 #primary-navigation .focus {
   color: white;
 }
-/* line 217, sass/style.scss */
+/* line 220, sass/style.scss */
 #primary-navigation a {
   color: #2b2b2b;
 }
-/* line 219, sass/style.scss */
+/* line 222, sass/style.scss */
 #primary-navigation a:hover {
   color: white;
 }
 
-/* line 225, sass/style.scss */
+/* line 228, sass/style.scss */
 #secondary a {
   color: #2b2b2b;
 }
 
-/* line 226, sass/style.scss */
+/* line 229, sass/style.scss */
 #secondary .sub-menu a {
   color: white;
 }
 
-/* line 228, sass/style.scss */
+/* line 231, sass/style.scss */
 #secondary .primary-sidebar {
   font-size: 14px;
 }
-/* line 230, sass/style.scss */
+/* line 233, sass/style.scss */
 #secondary .primary-sidebar h1 {
   font-size: 14px;
   color: #2b2b2b;
 }
-/* line 234, sass/style.scss */
+/* line 237, sass/style.scss */
 #secondary .primary-sidebar a {
   color: #095c5c;
   font-size: 14px;
@@ -333,11 +337,11 @@ body.custom-background {
   color: #0e8a8a;
 }
 
-/* line 240, sass/style.scss */
+/* line 243, sass/style.scss */
 #content-sidebar .widget li a:visited {
   color: #2b2b2b;
 }
-/* line 243, sass/style.scss */
+/* line 246, sass/style.scss */
 #content-sidebar .widget li a:hover {
   color: #d17c29;
 }
@@ -345,7 +349,7 @@ body.custom-background {
 /******************************
 /** Extras 
 *******************************/
-/* line 251, sass/style.scss */
+/* line 254, sass/style.scss */
 .header-image {
   margin: 20px 0;
   width: 100%;
@@ -355,7 +359,7 @@ body.custom-background {
 /******************************
 /** Accent Colors 
 *******************************/
-/* line 285, sass/style.scss */
+/* line 288, sass/style.scss */
 button,
 .button,
 .contributor-posts-link,
@@ -385,7 +389,7 @@ input[type="submit"],
   background-color: #0e8a8a;
 }
 
-/* line 289, sass/style.scss */
+/* line 292, sass/style.scss */
 .site-navigation a:hover {
   color: #0e8a8a;
 }
@@ -393,22 +397,22 @@ input[type="submit"],
 /* Support a widely-adopted but non-standard selector for text selection styles
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
  */
-/* line 295, sass/style.scss */
+/* line 298, sass/style.scss */
 ::selection {
   background: #0e8a8a;
 }
 
-/* line 299, sass/style.scss */
+/* line 302, sass/style.scss */
 ::-moz-selection {
   background: #0e8a8a;
 }
 
-/* line 303, sass/style.scss */
+/* line 306, sass/style.scss */
 .paging-navigation .page-numbers.current {
   border-color: #13b8b8;
 }
 
-/* line 314, sass/style.scss */
+/* line 317, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 #secondary .site-navigation .current_page_item > a,
@@ -424,7 +428,7 @@ input[type="submit"],
 }
 
 @media screen and (min-width: 782px) {
-  /* line 324, sass/style.scss */
+  /* line 327, sass/style.scss */
   #primary-navigation li:hover > a,
   #primary-navigation li.focus > a,
   #primary-navigation ul ul {
@@ -433,7 +437,7 @@ input[type="submit"],
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 333, sass/style.scss */
+  /* line 336, sass/style.scss */
   #secondary .secondary-navigation li:hover > a,
   #secondary .secondary-navigation li.focus > a,
   #secondary .secondary-navigation ul ul {
@@ -441,7 +445,7 @@ input[type="submit"],
     color: white;
   }
 }
-/* line 374, sass/style.scss */
+/* line 377, sass/style.scss */
 .contributor-posts-link,
 .button,
 button,
@@ -481,7 +485,7 @@ input[type="submit"]:focus,
 }
 
 @media screen and (min-width: 782px) {
-  /* line 382, sass/style.scss */
+  /* line 385, sass/style.scss */
   .primary-navigation ul ul a,
   .primary-navigation li:hover > a,
   .primary-navigation li.focus > a,
@@ -490,7 +494,7 @@ input[type="submit"]:focus,
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 393, sass/style.scss */
+  /* line 396, sass/style.scss */
   #menu-home-menu ul ul a,
   #menu-home-menu li:hover > a,
   #menu-home-menu li.focus > a,
@@ -505,19 +509,19 @@ input[type="submit"]:focus,
 ::-moz-selection {
         color: $background;
     }*/
-/* line 406, sass/style.scss */
+/* line 409, sass/style.scss */
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded {
   background-color: white;
 }
 
 /* Generated variants of custom accent color. */
-/* line 411, sass/style.scss */
+/* line 414, sass/style.scss */
 a,
 .content-sidebar .widget a {
   color: #0e8a8a;
 }
 
-/* line 443, sass/style.scss */
+/* line 446, sass/style.scss */
 .contributor-posts-link:hover,
 .button:hover,
 .button:focus,
@@ -550,14 +554,14 @@ input[type="submit"]:focus,
   background-color: #13b8b8;
 }
 
-/* line 448, sass/style.scss */
+/* line 451, sass/style.scss */
 .search-toggle:hover,
 .search-toggle.active,
 .search-box {
   background-color: #13b8b8;
 }
 
-/* line 459, sass/style.scss */
+/* line 462, sass/style.scss */
 .featured-content a:hover,
 .featured-content .entry-title a:hover,
 .widget a:hover,
@@ -569,7 +573,7 @@ input[type="submit"]:focus,
   color: #d17c29;
 }
 
-/* line 478, sass/style.scss */
+/* line 481, sass/style.scss */
 a:active,
 a:hover,
 .entry-title a:hover,
@@ -589,38 +593,38 @@ a:hover,
   color: #d17c29;
 }
 
-/* line 482, sass/style.scss */
+/* line 485, sass/style.scss */
 .page-links a:hover,
 .paging-navigation a:hover {
   border-color: #d17c29;
 }
 
-/* line 485, sass/style.scss */
+/* line 488, sass/style.scss */
 .entry-meta .tag-links a:hover:before {
   border-right-color: #d17c29;
 }
 
-/* line 489, sass/style.scss */
+/* line 492, sass/style.scss */
 .page-links a:hover,
 .entry-meta .tag-links a:hover {
   background-color: #d17c29;
 }
 
 @media screen and (min-width: 782px) {
-  /* line 494, sass/style.scss */
+  /* line 497, sass/style.scss */
   .primary-navigation ul ul a:hover,
   .primary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 501, sass/style.scss */
+  /* line 504, sass/style.scss */
   .secondary-navigation ul ul a:hover,
   .secondary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
-/* line 516, sass/style.scss */
+/* line 519, sass/style.scss */
 button:active,
 .button:active,
 .contributor-posts-link:active,
@@ -636,7 +640,7 @@ input[type="submit"]:active,
   background-color: #13b8b8;
 }
 
-/* line 522, sass/style.scss */
+/* line 525, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
