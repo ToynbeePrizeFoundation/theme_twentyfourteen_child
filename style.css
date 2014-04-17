@@ -46,7 +46,7 @@ body.custom-background {
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 400;
-  max-width: 75%;
+  max-width: 70%;
 }
 /* line 51, sass/style.scss */
 .site-header .header-main .site-title a {
