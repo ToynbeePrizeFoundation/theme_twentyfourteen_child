@@ -123,6 +123,20 @@ body.custom-background{
 .secondary-navigation ul ul{
     display:none;
 }
+.primary-navigation.toggled-on .nav-menu {
+    clear:both;
+    width:100%;
+    a:hover{
+        color:$accent-base;
+    }
+}
+#primary-navigation .toggled-on > a {
+    color:$accent-base;
+    &:hover {
+        color:$accent-base;
+    }
+
+}
 /************************************
 /* Sidebar
 *************************************/
