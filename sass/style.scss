@@ -126,6 +126,7 @@ body.custom-background{
 .primary-navigation.toggled-on .nav-menu {
     clear:both;
     width:100%;
+    padding-bottom:12px;
     a:hover{
         color:$accent-base;
     }
