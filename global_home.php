@@ -26,7 +26,7 @@ get_header(); ?>
     <div id="primary" class="content-area">
         <div id="content" class="site-content" role="main">
             <?php
-                query_posts('category=news-and-events');
+                query_posts('category=ngh');
                 // Start the Loop.
                 while ( have_posts() ) : the_post();
 
