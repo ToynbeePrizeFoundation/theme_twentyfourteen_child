@@ -25,7 +25,7 @@ get_header(); ?>
 ?>
     <div id="primary" class="content-area">
         <div id="content" class="site-content" role="main">
-            <div class="entry-header">
+            <div class="entry-header top">
                 <h1 class="entry-title title">Global History Blog</h1>
             </div>
             <?php
