@@ -44,7 +44,7 @@
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-	<?php if ( is_search() || is_category() || is_tag() || is_home() ) : ?>
+	<?php if ( is_search()): ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
