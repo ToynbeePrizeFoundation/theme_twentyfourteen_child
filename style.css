@@ -272,7 +272,7 @@ li.rpwe_widget {
 }
 /* line 215, sass/style.scss */
 #Global_Studies_Journal-widgets-on-page h2 {
-  margin-top: 1em;
+  margin: 1em 0;
 }
 /* line 217, sass/style.scss */
 #Global_Studies_Journal-widgets-on-page h2 .rsswidget img {
