@@ -13,6 +13,7 @@
 @import "compass";
 @import "base";
 
+
 /******************************
 /** Colors 
 *******************************/
@@ -46,7 +47,7 @@ body.custom-background{
 			text-transform: uppercase;
 			font-size: 2em;
 			font-weight: 400;
-			max-width:75%;
+			max-width:70%;
 
 			a {
 				color:$text;
@@ -105,6 +106,9 @@ body.custom-background{
     border-left:1px solid white;
 }
 
+h3 {
+    margin: 1em 0;
+}
 .post-thumbnail img {
     max-width:250px;
 }
@@ -125,6 +129,24 @@ body.custom-background{
 *******************************/
 .secondary-navigation ul ul{
     display:none;
+}
+.site-header .header-main .primary-navigation.toggled-on {
+    padding-bottom:12px;    
+
+}
+.primary-navigation.toggled-on .nav-menu {
+    clear:both;
+    width:100%;
+    a:hover{
+        color:$accent-base;
+    }
+}
+#primary-navigation .toggled-on > a {
+    color:$accent-base;
+    &:hover {
+        color:$accent-base;
+    }
+
 }
 /************************************
 /* Sidebar

@@ -1,8 +1,6 @@
 <?php
 /**
- * The default template for displaying content
- *
- * Used for both single and index/archive/search.
+ * Template Name: Page With Author
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
@@ -29,22 +27,24 @@
 		?>
 
 		<div class="entry-meta">
-			<?php
-				if ( 'post' == get_post_type() )
-					twentyfourteen_posted_on();
+			<span class="author vcard">By: <?php the_author_posts_link(); ?></span>
 
-				if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
-			?>
-			<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyfourteen' ), __( '1 Comment', 'twentyfourteen' ), __( '% Comments', 'twentyfourteen' ) ); ?></span>
 			<?php
-				endif;
+				// if ( 'post' == get_post_type() )
+				// 	twentyfourteen_posted_on();
+
+				// if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
+			?>
+			<!-- <span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyfourteen' ), __( '1 Comment', 'twentyfourteen' ), __( '% Comments', 'twentyfourteen' ) ); ?></span> -->
+			<?php
+				// endif;
 
 				edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
 			?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
-	<?php if ( is_search()): ?>
+	<?php if ( is_search() ) : ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
