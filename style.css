@@ -261,10 +261,34 @@ body.custom-background {
   font-size: 13px;
 }
 
+/* line 209, sass/style.scss */
+li.rpwe_widget {
+  margin-bottom: 1em;
+}
+
+/* line 213, sass/style.scss */
+#Global_Studies_Journal-widgets-on-page {
+  padding-top: 0;
+}
+/* line 215, sass/style.scss */
+#Global_Studies_Journal-widgets-on-page h2 {
+  margin-top: 1em;
+}
+/* line 217, sass/style.scss */
+#Global_Studies_Journal-widgets-on-page h2 .rsswidget img {
+  display: none;
+}
+/* line 220, sass/style.scss */
+#Global_Studies_Journal-widgets-on-page h2 a {
+  text-decoration: none;
+  font-color: #2b2b2b;
+  font-size: 1.2em;
+}
+
 /******************************
 /** Links and Accents 
 *******************************/
-/* line 221, sass/style.scss */
+/* line 240, sass/style.scss */
 .site:before,
 #secondary,
 .site-header,
@@ -277,7 +301,7 @@ body.custom-background {
 .ie8 .site:before {
   color: #2b2b2b;
 }
-/* line 223, sass/style.scss */
+/* line 242, sass/style.scss */
 .site:before h1,
 #secondary h1,
 .site-header h1,
@@ -290,7 +314,7 @@ body.custom-background {
 .ie8 .site:before h1 {
   color: #2b2b2b;
 }
-/* line 226, sass/style.scss */
+/* line 245, sass/style.scss */
 .site:before a,
 #secondary a,
 .site-header a,
@@ -304,39 +328,39 @@ body.custom-background {
   color: #2b2b2b;
 }
 
-/* line 232, sass/style.scss */
+/* line 251, sass/style.scss */
 #primary-navigation .focus {
   color: white;
 }
-/* line 235, sass/style.scss */
+/* line 254, sass/style.scss */
 #primary-navigation a {
   color: #2b2b2b;
 }
-/* line 237, sass/style.scss */
+/* line 256, sass/style.scss */
 #primary-navigation a:hover {
   color: white;
 }
 
-/* line 243, sass/style.scss */
+/* line 262, sass/style.scss */
 #secondary a {
   color: #2b2b2b;
 }
 
-/* line 244, sass/style.scss */
+/* line 263, sass/style.scss */
 #secondary .sub-menu a {
   color: white;
 }
 
-/* line 246, sass/style.scss */
+/* line 265, sass/style.scss */
 #secondary .primary-sidebar {
   font-size: 14px;
 }
-/* line 248, sass/style.scss */
+/* line 267, sass/style.scss */
 #secondary .primary-sidebar h1 {
   font-size: 14px;
   color: #2b2b2b;
 }
-/* line 252, sass/style.scss */
+/* line 271, sass/style.scss */
 #secondary .primary-sidebar a {
   color: #095c5c;
   font-size: 14px;
@@ -354,11 +378,11 @@ body.custom-background {
   color: #0e8a8a;
 }
 
-/* line 258, sass/style.scss */
+/* line 277, sass/style.scss */
 #content-sidebar .widget li a:visited {
   color: #2b2b2b;
 }
-/* line 261, sass/style.scss */
+/* line 280, sass/style.scss */
 #content-sidebar .widget li a:hover {
   color: #d17c29;
 }
@@ -366,7 +390,7 @@ body.custom-background {
 /******************************
 /** Extras 
 *******************************/
-/* line 269, sass/style.scss */
+/* line 288, sass/style.scss */
 .header-image {
   margin: 20px 0;
   width: 100%;
@@ -376,7 +400,7 @@ body.custom-background {
 /******************************
 /** Accent Colors 
 *******************************/
-/* line 303, sass/style.scss */
+/* line 322, sass/style.scss */
 button,
 .button,
 .contributor-posts-link,
@@ -406,7 +430,7 @@ input[type="submit"],
   background-color: #0e8a8a;
 }
 
-/* line 307, sass/style.scss */
+/* line 326, sass/style.scss */
 .site-navigation a:hover {
   color: #0e8a8a;
 }
@@ -414,22 +438,22 @@ input[type="submit"],
 /* Support a widely-adopted but non-standard selector for text selection styles
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
  */
-/* line 313, sass/style.scss */
+/* line 332, sass/style.scss */
 ::selection {
   background: #0e8a8a;
 }
 
-/* line 317, sass/style.scss */
+/* line 336, sass/style.scss */
 ::-moz-selection {
   background: #0e8a8a;
 }
 
-/* line 321, sass/style.scss */
+/* line 340, sass/style.scss */
 .paging-navigation .page-numbers.current {
   border-color: #13b8b8;
 }
 
-/* line 332, sass/style.scss */
+/* line 351, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 #secondary .site-navigation .current_page_item > a,
@@ -445,7 +469,7 @@ input[type="submit"],
 }
 
 @media screen and (min-width: 782px) {
-  /* line 342, sass/style.scss */
+  /* line 361, sass/style.scss */
   #primary-navigation li:hover > a,
   #primary-navigation li.focus > a,
   #primary-navigation ul ul {
@@ -454,7 +478,7 @@ input[type="submit"],
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 351, sass/style.scss */
+  /* line 370, sass/style.scss */
   #secondary .secondary-navigation li:hover > a,
   #secondary .secondary-navigation li.focus > a,
   #secondary .secondary-navigation ul ul {
@@ -462,7 +486,7 @@ input[type="submit"],
     color: white;
   }
 }
-/* line 392, sass/style.scss */
+/* line 411, sass/style.scss */
 .contributor-posts-link,
 .button,
 button,
@@ -502,7 +526,7 @@ input[type="submit"]:focus,
 }
 
 @media screen and (min-width: 782px) {
-  /* line 400, sass/style.scss */
+  /* line 419, sass/style.scss */
   .primary-navigation ul ul a,
   .primary-navigation li:hover > a,
   .primary-navigation li.focus > a,
@@ -511,7 +535,7 @@ input[type="submit"]:focus,
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 411, sass/style.scss */
+  /* line 430, sass/style.scss */
   #menu-home-menu ul ul a,
   #menu-home-menu li:hover > a,
   #menu-home-menu li.focus > a,
@@ -526,19 +550,19 @@ input[type="submit"]:focus,
 ::-moz-selection {
         color: $background;
     }*/
-/* line 424, sass/style.scss */
+/* line 443, sass/style.scss */
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded {
   background-color: white;
 }
 
 /* Generated variants of custom accent color. */
-/* line 429, sass/style.scss */
+/* line 448, sass/style.scss */
 a,
 .content-sidebar .widget a {
   color: #0e8a8a;
 }
 
-/* line 461, sass/style.scss */
+/* line 480, sass/style.scss */
 .contributor-posts-link:hover,
 .button:hover,
 .button:focus,
@@ -571,14 +595,14 @@ input[type="submit"]:focus,
   background-color: #13b8b8;
 }
 
-/* line 466, sass/style.scss */
+/* line 485, sass/style.scss */
 .search-toggle:hover,
 .search-toggle.active,
 .search-box {
   background-color: #13b8b8;
 }
 
-/* line 477, sass/style.scss */
+/* line 496, sass/style.scss */
 .featured-content a:hover,
 .featured-content .entry-title a:hover,
 .widget a:hover,
@@ -590,7 +614,7 @@ input[type="submit"]:focus,
   color: #d17c29;
 }
 
-/* line 496, sass/style.scss */
+/* line 515, sass/style.scss */
 a:active,
 a:hover,
 .entry-title a:hover,
@@ -610,38 +634,38 @@ a:hover,
   color: #d17c29;
 }
 
-/* line 500, sass/style.scss */
+/* line 519, sass/style.scss */
 .page-links a:hover,
 .paging-navigation a:hover {
   border-color: #d17c29;
 }
 
-/* line 503, sass/style.scss */
+/* line 522, sass/style.scss */
 .entry-meta .tag-links a:hover:before {
   border-right-color: #d17c29;
 }
 
-/* line 507, sass/style.scss */
+/* line 526, sass/style.scss */
 .page-links a:hover,
 .entry-meta .tag-links a:hover {
   background-color: #d17c29;
 }
 
 @media screen and (min-width: 782px) {
-  /* line 512, sass/style.scss */
+  /* line 531, sass/style.scss */
   .primary-navigation ul ul a:hover,
   .primary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 519, sass/style.scss */
+  /* line 538, sass/style.scss */
   .secondary-navigation ul ul a:hover,
   .secondary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
-/* line 534, sass/style.scss */
+/* line 553, sass/style.scss */
 button:active,
 .button:active,
 .contributor-posts-link:active,
@@ -657,7 +681,7 @@ input[type="submit"]:active,
   background-color: #13b8b8;
 }
 
-/* line 540, sass/style.scss */
+/* line 559, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,

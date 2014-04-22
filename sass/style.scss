@@ -205,6 +205,25 @@ body.custom-background{
 .rpwe-time {
     font-size: 13px;
 }
+
+li.rpwe_widget {
+    margin-bottom: 1em;
+}
+
+#Global_Studies_Journal-widgets-on-page {
+    padding-top:0;
+    h2 {
+        margin-top:1em;
+        .rsswidget img{
+            display: none;
+        }
+        a {
+            text-decoration: none;
+            font-color:$text;
+            font-size:1.2em;
+        }
+    }
+}
 /******************************
 /** Links and Accents 
 *******************************/
