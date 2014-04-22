@@ -106,12 +106,6 @@ body.custom-background{
     border-left:1px solid white;
 }
 
-h3 {
-    margin: 1em 0;
-}
-.post-thumbnail img {
-    max-width:250px;
-}
 .contributor-avatar{
     margin-left:0;
 }
@@ -147,6 +141,20 @@ h3 {
         color:$accent-base;
     }
 
+}
+/************************************
+/* Posts
+*************************************/
+.post-thumbnail img {
+    max-width:250px;
+}
+.entry-content {
+    h3 {
+        margin: 1em 0;
+    }
+    li {
+        padding:.5em 0;
+    }
 }
 /************************************
 /* Sidebar
