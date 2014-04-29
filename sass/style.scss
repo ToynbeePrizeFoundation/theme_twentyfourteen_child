@@ -156,8 +156,12 @@ body.custom-background{
         padding-bottom:.5em;
     }
 }
-.entry-content .widget a {
-    color:$accent-main;
+.entry-content .widget {
+    margin-bottom:2em;
+
+    a {
+        color:$accent-main;
+    }
 }
 /************************************
 /* Sidebar
