@@ -157,7 +157,9 @@ body.custom-background{
     }
 }
 .entry-content .widget {
-    margin-bottom:2em;
+    &.display-authors-widget {
+        margin-bottom:1.5em;
+    }
 
     a {
         color:$accent-main;
