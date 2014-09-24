@@ -137,39 +137,44 @@ body.custom-background {
   color: #2b2b2b;
 }
 
+/* line 121, sass/style.scss */
+.full-width .site-content .entry-content {
+  max-width: 800px;
+}
+
 /******************************
 /** Navigation 
 *******************************/
-/* line 124, sass/style.scss */
+/* line 127, sass/style.scss */
 .secondary-navigation ul ul {
   display: none;
 }
 
-/* line 127, sass/style.scss */
+/* line 130, sass/style.scss */
 .site-header .header-main .primary-navigation.toggled-on {
   padding-bottom: 12px;
 }
 
-/* line 131, sass/style.scss */
+/* line 134, sass/style.scss */
 .primary-navigation.toggled-on .nav-menu {
   clear: both;
   width: 100%;
 }
-/* line 134, sass/style.scss */
+/* line 137, sass/style.scss */
 .primary-navigation.toggled-on .nav-menu a:hover {
   color: #ebeff2;
 }
 
-/* line 138, sass/style.scss */
+/* line 141, sass/style.scss */
 #primary-navigation .toggled-on > a {
   color: #ebeff2;
 }
-/* line 140, sass/style.scss */
+/* line 143, sass/style.scss */
 #primary-navigation .toggled-on > a:hover {
   color: #ebeff2;
 }
 
-/* line 145, sass/style.scss */
+/* line 148, sass/style.scss */
 .menu-toggle {
   top: 8px;
 }
@@ -177,25 +182,25 @@ body.custom-background {
 /************************************
 /* Posts
 *************************************/
-/* line 151, sass/style.scss */
+/* line 154, sass/style.scss */
 .post-thumbnail img {
   max-width: 250px;
 }
 
-/* line 155, sass/style.scss */
+/* line 158, sass/style.scss */
 .entry-content h3 {
   margin: 1em 0;
 }
-/* line 158, sass/style.scss */
+/* line 161, sass/style.scss */
 .entry-content li {
   padding-bottom: .5em;
 }
 
-/* line 163, sass/style.scss */
+/* line 166, sass/style.scss */
 .entry-content .widget.display-authors-widget {
   margin-bottom: 1.5em;
 }
-/* line 167, sass/style.scss */
+/* line 170, sass/style.scss */
 .entry-content .widget a {
   color: #0e8a8a;
 }
@@ -203,34 +208,34 @@ body.custom-background {
 /************************************
 /* Sidebar
 *************************************/
-/* line 175, sass/style.scss */
+/* line 178, sass/style.scss */
 #secondary {
   font-size: 13px;
 }
-/* line 177, sass/style.scss */
+/* line 180, sass/style.scss */
 #secondary a {
   font-size: 13px;
   font-weight: 400;
 }
-/* line 178, sass/style.scss */
+/* line 181, sass/style.scss */
 #secondary p {
   font-size: 14px;
 }
 
-/* line 180, sass/style.scss */
+/* line 183, sass/style.scss */
 #content-sidebar {
   font-size: 14px;
 }
-/* line 182, sass/style.scss */
+/* line 185, sass/style.scss */
 #content-sidebar a {
   font-size: 14px;
 }
-/* line 183, sass/style.scss */
+/* line 186, sass/style.scss */
 #content-sidebar .textwidget li {
   padding-bottom: .5em;
 }
 
-/* line 187, sass/style.scss */
+/* line 190, sass/style.scss */
 .secondary-navigation li {
   border-top: 1px solid white;
 }
@@ -238,7 +243,7 @@ body.custom-background {
 /************************************
 /*Page to Sidebar Plugin
 *************************************/
-/* line 195, sass/style.scss */
+/* line 198, sass/style.scss */
 .widget_simple_page_to_sidebar li {
   padding-bottom: .5em;
 }
@@ -246,17 +251,17 @@ body.custom-background {
 /************************************
 /*List-Users Plugin
 *************************************/
-/* line 203, sass/style.scss */
+/* line 206, sass/style.scss */
 .tern_members_search {
   display: none;
 }
 
-/* line 206, sass/style.scss */
+/* line 209, sass/style.scss */
 .tern_members_view {
   display: none;
 }
 
-/* line 209, sass/style.scss */
+/* line 212, sass/style.scss */
 .tern_members_alpha {
   display: none;
 }
@@ -264,43 +269,43 @@ body.custom-background {
 /************************************
 /*Widgets to Page Plugin
 *************************************/
-/* line 216, sass/style.scss */
+/* line 219, sass/style.scss */
 .widgets_on_page {
   padding: 1em 0;
 }
-/* line 218, sass/style.scss */
+/* line 221, sass/style.scss */
 .widgets_on_page a {
   color: #0e8a8a;
   font-size: 14px;
 }
-/* line 222, sass/style.scss */
+/* line 225, sass/style.scss */
 .widgets_on_page ul {
   margin-left: 0;
 }
 
-/* line 227, sass/style.scss */
+/* line 230, sass/style.scss */
 .rpwe-time {
   font-size: 13px;
 }
 
-/* line 231, sass/style.scss */
+/* line 234, sass/style.scss */
 li.rpwe_widget {
   margin-bottom: 1em;
 }
 
-/* line 235, sass/style.scss */
+/* line 238, sass/style.scss */
 #Global_Studies_Journal-widgets-on-page {
   padding-top: 0;
 }
-/* line 237, sass/style.scss */
+/* line 240, sass/style.scss */
 #Global_Studies_Journal-widgets-on-page h2 {
   margin: 1em 0;
 }
-/* line 239, sass/style.scss */
+/* line 242, sass/style.scss */
 #Global_Studies_Journal-widgets-on-page h2 .rsswidget img {
   display: none;
 }
-/* line 242, sass/style.scss */
+/* line 245, sass/style.scss */
 #Global_Studies_Journal-widgets-on-page h2 a {
   text-decoration: none;
   font-color: #2b2b2b;
@@ -310,7 +315,7 @@ li.rpwe_widget {
 /******************************
 /** Links and Accents 
 *******************************/
-/* line 262, sass/style.scss */
+/* line 265, sass/style.scss */
 .site:before,
 #secondary,
 .site-header,
@@ -323,7 +328,7 @@ li.rpwe_widget {
 .ie8 .site:before {
   color: #2b2b2b;
 }
-/* line 264, sass/style.scss */
+/* line 267, sass/style.scss */
 .site:before h1,
 #secondary h1,
 .site-header h1,
@@ -336,7 +341,7 @@ li.rpwe_widget {
 .ie8 .site:before h1 {
   color: #2b2b2b;
 }
-/* line 267, sass/style.scss */
+/* line 270, sass/style.scss */
 .site:before a,
 #secondary a,
 .site-header a,
@@ -350,61 +355,61 @@ li.rpwe_widget {
   color: #2b2b2b;
 }
 
-/* line 273, sass/style.scss */
+/* line 276, sass/style.scss */
 #primary-navigation .focus {
   color: white;
 }
-/* line 276, sass/style.scss */
+/* line 279, sass/style.scss */
 #primary-navigation a {
   color: #2b2b2b;
 }
-/* line 278, sass/style.scss */
+/* line 281, sass/style.scss */
 #primary-navigation a:hover {
   color: white;
 }
 
-/* line 284, sass/style.scss */
+/* line 287, sass/style.scss */
 #secondary a {
   color: #2b2b2b;
 }
 
-/* line 285, sass/style.scss */
+/* line 288, sass/style.scss */
 #secondary .sub-menu a {
   color: white;
 }
 
-/* line 287, sass/style.scss */
+/* line 290, sass/style.scss */
 #secondary .primary-sidebar {
   font-size: 14px;
 }
-/* line 289, sass/style.scss */
+/* line 292, sass/style.scss */
 #secondary .primary-sidebar h1 {
   font-size: 14px;
   color: #2b2b2b;
 }
-/* line 293, sass/style.scss */
+/* line 296, sass/style.scss */
 #secondary .primary-sidebar a {
   color: #095c5c;
   font-size: 14px;
 }
-/* line 18, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, vendor/bundle/ruby/2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #secondary .primary-sidebar a:visited {
   color: #2b2b2b;
 }
-/* line 24, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, vendor/bundle/ruby/2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #secondary .primary-sidebar a:hover {
   color: #d17c29;
 }
-/* line 27, ../../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, vendor/bundle/ruby/2.1.0/gems/compass-0.12.4/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 #secondary .primary-sidebar a:active {
   color: #0e8a8a;
 }
 
-/* line 299, sass/style.scss */
+/* line 302, sass/style.scss */
 #content-sidebar .widget li a:visited {
   color: #2b2b2b;
 }
-/* line 302, sass/style.scss */
+/* line 305, sass/style.scss */
 #content-sidebar .widget li a:hover {
   color: #d17c29;
 }
@@ -412,7 +417,7 @@ li.rpwe_widget {
 /******************************
 /** Extras 
 *******************************/
-/* line 310, sass/style.scss */
+/* line 313, sass/style.scss */
 .header-image {
   margin: 20px 0;
   width: 100%;
@@ -422,7 +427,7 @@ li.rpwe_widget {
 /******************************
 /** Accent Colors 
 *******************************/
-/* line 344, sass/style.scss */
+/* line 347, sass/style.scss */
 button,
 .button,
 .contributor-posts-link,
@@ -452,7 +457,7 @@ input[type="submit"],
   background-color: #0e8a8a;
 }
 
-/* line 348, sass/style.scss */
+/* line 351, sass/style.scss */
 .site-navigation a:hover {
   color: #0e8a8a;
 }
@@ -460,22 +465,22 @@ input[type="submit"],
 /* Support a widely-adopted but non-standard selector for text selection styles
  * to achieve a better experience. See http://core.trac.wordpress.org/ticket/25898.
  */
-/* line 354, sass/style.scss */
+/* line 357, sass/style.scss */
 ::selection {
   background: #0e8a8a;
 }
 
-/* line 358, sass/style.scss */
+/* line 361, sass/style.scss */
 ::-moz-selection {
   background: #0e8a8a;
 }
 
-/* line 362, sass/style.scss */
+/* line 365, sass/style.scss */
 .paging-navigation .page-numbers.current {
   border-color: #13b8b8;
 }
 
-/* line 373, sass/style.scss */
+/* line 376, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 #secondary .site-navigation .current_page_item > a,
@@ -491,7 +496,7 @@ input[type="submit"],
 }
 
 @media screen and (min-width: 782px) {
-  /* line 383, sass/style.scss */
+  /* line 386, sass/style.scss */
   #primary-navigation li:hover > a,
   #primary-navigation li.focus > a,
   #primary-navigation ul ul {
@@ -500,7 +505,7 @@ input[type="submit"],
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 392, sass/style.scss */
+  /* line 395, sass/style.scss */
   #secondary .secondary-navigation li:hover > a,
   #secondary .secondary-navigation li.focus > a,
   #secondary .secondary-navigation ul ul {
@@ -508,7 +513,7 @@ input[type="submit"],
     color: white;
   }
 }
-/* line 433, sass/style.scss */
+/* line 436, sass/style.scss */
 .contributor-posts-link,
 .button,
 button,
@@ -548,7 +553,7 @@ input[type="submit"]:focus,
 }
 
 @media screen and (min-width: 782px) {
-  /* line 441, sass/style.scss */
+  /* line 444, sass/style.scss */
   .primary-navigation ul ul a,
   .primary-navigation li:hover > a,
   .primary-navigation li.focus > a,
@@ -557,7 +562,7 @@ input[type="submit"]:focus,
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 452, sass/style.scss */
+  /* line 455, sass/style.scss */
   #menu-home-menu ul ul a,
   #menu-home-menu li:hover > a,
   #menu-home-menu li.focus > a,
@@ -572,19 +577,19 @@ input[type="submit"]:focus,
 ::-moz-selection {
         color: $background;
     }*/
-/* line 465, sass/style.scss */
+/* line 468, sass/style.scss */
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded {
   background-color: white;
 }
 
 /* Generated variants of custom accent color. */
-/* line 470, sass/style.scss */
+/* line 473, sass/style.scss */
 a,
 .content-sidebar .widget a {
   color: #0e8a8a;
 }
 
-/* line 502, sass/style.scss */
+/* line 505, sass/style.scss */
 .contributor-posts-link:hover,
 .button:hover,
 .button:focus,
@@ -617,14 +622,14 @@ input[type="submit"]:focus,
   background-color: #13b8b8;
 }
 
-/* line 507, sass/style.scss */
+/* line 510, sass/style.scss */
 .search-toggle:hover,
 .search-toggle.active,
 .search-box {
   background-color: #13b8b8;
 }
 
-/* line 518, sass/style.scss */
+/* line 521, sass/style.scss */
 .featured-content a:hover,
 .featured-content .entry-title a:hover,
 .widget a:hover,
@@ -636,7 +641,7 @@ input[type="submit"]:focus,
   color: #d17c29;
 }
 
-/* line 537, sass/style.scss */
+/* line 540, sass/style.scss */
 a:active,
 a:hover,
 .entry-title a:hover,
@@ -656,38 +661,38 @@ a:hover,
   color: #d17c29;
 }
 
-/* line 541, sass/style.scss */
+/* line 544, sass/style.scss */
 .page-links a:hover,
 .paging-navigation a:hover {
   border-color: #d17c29;
 }
 
-/* line 544, sass/style.scss */
+/* line 547, sass/style.scss */
 .entry-meta .tag-links a:hover:before {
   border-right-color: #d17c29;
 }
 
-/* line 548, sass/style.scss */
+/* line 551, sass/style.scss */
 .page-links a:hover,
 .entry-meta .tag-links a:hover {
   background-color: #d17c29;
 }
 
 @media screen and (min-width: 782px) {
-  /* line 553, sass/style.scss */
+  /* line 556, sass/style.scss */
   .primary-navigation ul ul a:hover,
   .primary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 560, sass/style.scss */
+  /* line 563, sass/style.scss */
   .secondary-navigation ul ul a:hover,
   .secondary-navigation ul ul li.focus > a {
     background-color: #13b8b8;
   }
 }
-/* line 575, sass/style.scss */
+/* line 578, sass/style.scss */
 button:active,
 .button:active,
 .contributor-posts-link:active,
@@ -703,7 +708,7 @@ input[type="submit"]:active,
   background-color: #13b8b8;
 }
 
-/* line 581, sass/style.scss */
+/* line 584, sass/style.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,

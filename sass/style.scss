@@ -118,6 +118,9 @@ body.custom-background{
         color:$text;
     }
 }
+.full-width .site-content .entry-content {
+	max-width: 800px;
+	}
 /******************************
 /** Navigation 
 *******************************/
